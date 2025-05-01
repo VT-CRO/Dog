@@ -1,0 +1,11 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/houndsito/vt-cro/dog/vt-cro/dog/leg1_description_ws/install/leg1_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/houndsito/vt-cro/dog/vt-cro/dog/leg1_description_ws/install/leg1_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
