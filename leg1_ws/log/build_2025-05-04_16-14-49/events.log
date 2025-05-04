@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (leg1_description) JobQueued: {'identifier': 'leg1_description', 'dependencies': OrderedDict()}
+[0.000834] (leg1_description) JobStarted: {'identifier': 'leg1_description'}
+[0.099812] (-) TimerEvent: {}
+[0.200119] (-) TimerEvent: {}
+[0.300397] (-) TimerEvent: {}
+[0.400662] (-) TimerEvent: {}
+[0.500928] (-) TimerEvent: {}
+[0.601205] (-) TimerEvent: {}
+[0.701546] (-) TimerEvent: {}
+[0.800036] (leg1_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/leg1_description', 'build', '--build-base', '/home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build', 'install', '--record', '/home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/houndsito/vt-cro/Dog/leg1_ws/src/leg1_description', 'env': {'USER': 'houndsito', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/houndsito', 'TERMINFO': '/usr/lib/kitty/terminfo', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'KITTY_PID': '3706', 'MANAGERPID': '2247', 'SYSTEMD_EXEC_PID': '3058', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3706', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'OMF_PATH': '/home/houndsito/.local/share/omf', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'houndsito', 'WINDOWID': '27262987', 'JOURNAL_STREAM': '9:24345', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'KITTY_PUBLIC_KEY': '1:mY<Ns)~gXPS#HMg5~}CD!;sH)>LW;C@V;F^GjNGJ', 'USERNAME': 'houndsito', 'TERM': 'xterm-kitty', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/houndsito/.local/bin:/home/houndsito/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/DPM:@/tmp/.ICE-unix/2837,unix/DPM:/tmp/.ICE-unix/2837', 'INVOCATION_ID': 'ed3e56923550431cbe6f01758ff7e276', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/fish', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'OMF_CONFIG': '/home/houndsito/.config/omf', 'PYTHONPATH': '/home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801639] (-) TimerEvent: {}
+[0.901840] (-) TimerEvent: {}
+[1.002076] (-) TimerEvent: {}
+[1.060295] (leg1_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.060610] (leg1_description) StdoutLine: {'line': b'creating ../../build/leg1_description/leg1_description.egg-info\n'}
+[1.082454] (leg1_description) StdoutLine: {'line': b'writing ../../build/leg1_description/leg1_description.egg-info/PKG-INFO\n'}
+[1.082750] (leg1_description) StdoutLine: {'line': b'writing dependency_links to ../../build/leg1_description/leg1_description.egg-info/dependency_links.txt\n'}
+[1.082866] (leg1_description) StdoutLine: {'line': b'writing requirements to ../../build/leg1_description/leg1_description.egg-info/requires.txt\n'}
+[1.082968] (leg1_description) StdoutLine: {'line': b'writing top-level names to ../../build/leg1_description/leg1_description.egg-info/top_level.txt\n'}
+[1.083060] (leg1_description) StdoutLine: {'line': b"writing manifest file '../../build/leg1_description/leg1_description.egg-info/SOURCES.txt'\n"}
+[1.102187] (-) TimerEvent: {}
+[1.127517] (leg1_description) StdoutLine: {'line': b"reading manifest file '../../build/leg1_description/leg1_description.egg-info/SOURCES.txt'\n"}
+[1.128137] (leg1_description) StdoutLine: {'line': b"writing manifest file '../../build/leg1_description/leg1_description.egg-info/SOURCES.txt'\n"}
+[1.128391] (leg1_description) StdoutLine: {'line': b'running build\n'}
+[1.128494] (leg1_description) StdoutLine: {'line': b'running build_py\n'}
+[1.128636] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build\n'}
+[1.128698] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build/lib\n'}
+[1.128748] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build/lib/leg1_description\n'}
+[1.128796] (leg1_description) StdoutLine: {'line': b'copying leg1_description/__init__.py -> /home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build/lib/leg1_description\n'}
+[1.128885] (leg1_description) StdoutLine: {'line': b'running install\n'}
+[1.133165] (leg1_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.155300] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/lib/python3.12/site-packages/leg1_description\n'}
+[1.155609] (leg1_description) StdoutLine: {'line': b'copying /home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/build/lib/leg1_description/__init__.py -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/lib/python3.12/site-packages/leg1_description\n'}
+[1.155851] (leg1_description) StdoutLine: {'line': b'byte-compiling /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/lib/python3.12/site-packages/leg1_description/__init__.py to __init__.cpython-312.pyc\n'}
+[1.156099] (leg1_description) StdoutLine: {'line': b'running install_data\n'}
+[1.156226] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/ament_index\n'}
+[1.156333] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/ament_index/resource_index\n'}
+[1.156498] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/ament_index/resource_index/packages\n'}
+[1.156600] (leg1_description) StdoutLine: {'line': b'copying resource/leg1_description -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/ament_index/resource_index/packages\n'}
+[1.156695] (leg1_description) StdoutLine: {'line': b'copying package.xml -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description\n'}
+[1.156791] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/launch\n'}
+[1.156885] (leg1_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/launch\n'}
+[1.157039] (leg1_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/launch\n'}
+[1.157093] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/urdf\n'}
+[1.157136] (leg1_description) StdoutLine: {'line': b'copying urdf/leg1.trans -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/urdf\n'}
+[1.157177] (leg1_description) StdoutLine: {'line': b'copying urdf/leg1.gazebo -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/urdf\n'}
+[1.157217] (leg1_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/urdf\n'}
+[1.157256] (leg1_description) StdoutLine: {'line': b'copying urdf/dingo.xacro -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/urdf\n'}
+[1.157302] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.157345] (leg1_description) StdoutLine: {'line': b'copying meshes/FR_link3.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.157455] (leg1_description) StdoutLine: {'line': b'copying meshes/FR1_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.157571] (leg1_description) StdoutLine: {'line': b'copying meshes/R3_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.157658] (leg1_description) StdoutLine: {'line': b'copying meshes/L3_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.157744] (leg1_description) StdoutLine: {'line': b'copying meshes/L2_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.160392] (leg1_description) StdoutLine: {'line': b'copying meshes/L_link3.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.161185] (leg1_description) StdoutLine: {'line': b'copying meshes/FL_link4.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.161493] (leg1_description) StdoutLine: {'line': b'copying meshes/RR_link1.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.161725] (leg1_description) StdoutLine: {'line': b'copying meshes/RR_link3.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.161962] (leg1_description) StdoutLine: {'line': b'copying meshes/L2_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.162041] (leg1_description) StdoutLine: {'line': b'copying meshes/R3_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.164424] (leg1_description) StdoutLine: {'line': b'copying meshes/R_link3_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.164633] (leg1_description) StdoutLine: {'line': b'copying meshes/RL_link3.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.164890] (leg1_description) StdoutLine: {'line': b'copying meshes/FL_link2.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.165202] (leg1_description) StdoutLine: {'line': b'copying meshes/R_link2.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.165643] (leg1_description) StdoutLine: {'line': b'copying meshes/R2_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.165726] (leg1_description) StdoutLine: {'line': b'copying meshes/FR_link1.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.165986] (leg1_description) StdoutLine: {'line': b'copying meshes/L_link3_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.166096] (leg1_description) StdoutLine: {'line': b'copying meshes/RL_link1.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.166481] (leg1_description) StdoutLine: {'line': b'copying meshes/RR1_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.169998] (leg1_description) StdoutLine: {'line': b'copying meshes/RR_link1.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.170332] (leg1_description) StdoutLine: {'line': b'copying meshes/FL_link1.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.170682] (leg1_description) StdoutLine: {'line': b'copying meshes/FR_link2.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.171198] (leg1_description) StdoutLine: {'line': b'copying meshes/FR1_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.174817] (leg1_description) StdoutLine: {'line': b'copying meshes/body_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.175014] (leg1_description) StdoutLine: {'line': b'copying meshes/R_link3.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.175417] (leg1_description) StdoutLine: {'line': b'copying meshes/body_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.202320] (-) TimerEvent: {}
+[1.225598] (leg1_description) StdoutLine: {'line': b'copying meshes/FR_link1.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.225952] (leg1_description) StdoutLine: {'line': b'copying meshes/R_link2_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.226115] (leg1_description) StdoutLine: {'line': b'copying meshes/L3_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.228246] (leg1_description) StdoutLine: {'line': b'copying meshes/link4_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.228489] (leg1_description) StdoutLine: {'line': b'copying meshes/FL1_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.228605] (leg1_description) StdoutLine: {'line': b'copying meshes/FL1_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.232002] (leg1_description) StdoutLine: {'line': b'copying meshes/RL1_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.232244] (leg1_description) StdoutLine: {'line': b'copying meshes/RR_link2.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.232449] (leg1_description) StdoutLine: {'line': b'copying meshes/RL_link1.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.232753] (leg1_description) StdoutLine: {'line': b'copying meshes/RR1_obj.mtl -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.232872] (leg1_description) StdoutLine: {'line': b'copying meshes/RR_link4.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.233000] (leg1_description) StdoutLine: {'line': b'copying meshes/RL_link4.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.233215] (leg1_description) StdoutLine: {'line': b'copying meshes/R2_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.235852] (leg1_description) StdoutLine: {'line': b'copying meshes/base_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.236095] (leg1_description) StdoutLine: {'line': b'copying meshes/thread.jpg -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.236228] (leg1_description) StdoutLine: {'line': b'copying meshes/main.py -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.236327] (leg1_description) StdoutLine: {'line': b'copying meshes/L_link1_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.236448] (leg1_description) StdoutLine: {'line': b'copying meshes/base_link.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.237396] (leg1_description) StdoutLine: {'line': b'copying meshes/base_link.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.240179] (leg1_description) StdoutLine: {'line': b'copying meshes/link4.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.240453] (leg1_description) StdoutLine: {'line': b'copying meshes/R_link1_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.240590] (leg1_description) StdoutLine: {'line': b'copying meshes/L_link2.dae -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.240767] (leg1_description) StdoutLine: {'line': b'copying meshes/FL_link1.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.241067] (leg1_description) StdoutLine: {'line': b'copying meshes/RL1_obj.obj -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.244888] (leg1_description) StdoutLine: {'line': b'copying meshes/FR_link4.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.245117] (leg1_description) StdoutLine: {'line': b'copying meshes/L_link2_collision.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.245251] (leg1_description) StdoutLine: {'line': b'copying meshes/FL_link3.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.245502] (leg1_description) StdoutLine: {'line': b'copying meshes/RL_link2.STL -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/meshes\n'}
+[1.245853] (leg1_description) StdoutLine: {'line': b'creating /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/config\n'}
+[1.245990] (leg1_description) StdoutLine: {'line': b'copying config/display.rviz -> /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/share/leg1_description/config\n'}
+[1.246049] (leg1_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.270299] (leg1_description) StdoutLine: {'line': b'Copying ../../build/leg1_description/leg1_description.egg-info to /home/houndsito/vt-cro/Dog/leg1_ws/install/leg1_description/lib/python3.12/site-packages/leg1_description-0.0.0-py3.12.egg-info\n'}
+[1.270903] (leg1_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.302414] (-) TimerEvent: {}
+[1.402660] (-) TimerEvent: {}
+[1.413604] (leg1_description) StdoutLine: {'line': b"writing list of installed files to '/home/houndsito/vt-cro/Dog/leg1_ws/build/leg1_description/install.log'\n"}
+[1.432817] (leg1_description) CommandEnded: {'returncode': 0}
+[1.439419] (leg1_description) JobEnded: {'identifier': 'leg1_description', 'rc': 0}
+[1.440104] (-) EventReactorShutdown: {}
