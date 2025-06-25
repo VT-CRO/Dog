@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/dingo.launch.py
+resource/dingo
+src/dingo/__init__.py
+src/dingo/status_publisher.py
+src/dingo.egg-info/PKG-INFO
+src/dingo.egg-info/SOURCES.txt
+src/dingo.egg-info/dependency_links.txt
+src/dingo.egg-info/entry_points.txt
+src/dingo.egg-info/requires.txt
+src/dingo.egg-info/top_level.txt
+src/dingo.egg-info/zip-safe

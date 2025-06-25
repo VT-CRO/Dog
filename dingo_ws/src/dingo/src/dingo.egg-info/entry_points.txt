@@ -1,0 +1,2 @@
+[console_scripts]
+dingo_driver = dingo.dingo_driver:main

@@ -1,0 +1,17 @@
+[2.244s] Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/build --no-deps symlink_data
+[2.581s] running develop
+[2.823s] running egg_info
+[2.844s] writing src/dingo.egg-info/PKG-INFO
+[2.844s] writing dependency_links to src/dingo.egg-info/dependency_links.txt
+[2.844s] writing entry points to src/dingo.egg-info/entry_points.txt
+[2.844s] writing requirements to src/dingo.egg-info/requires.txt
+[2.844s] writing top-level names to src/dingo.egg-info/top_level.txt
+[2.886s] reading manifest file 'src/dingo.egg-info/SOURCES.txt'
+[2.887s] writing manifest file 'src/dingo.egg-info/SOURCES.txt'
+[2.910s] running build_ext
+[2.910s] Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo.egg-link (link to src)
+[2.911s] Installing dingo_driver script to /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/dingo
+[2.911s] 
+[2.911s] Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/src
+[2.911s] running symlink_data
+[2.935s] Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/build --no-deps symlink_data

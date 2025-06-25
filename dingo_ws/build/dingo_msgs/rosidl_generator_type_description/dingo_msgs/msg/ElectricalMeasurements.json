@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dingo_msgs/msg/ElectricalMeasurements",
+      "fields": [
+        {
+          "name": "battery_voltage_level",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "servo_buck_voltage_level",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "dingo_msgs/msg/ElectricalMeasurements",
+      "hash_string": "RIHS01_f37590c32b4d96c344f6c9a7b433719117847f248077a2237fe8cfe0438c87e6"
+    }
+  ]
+}

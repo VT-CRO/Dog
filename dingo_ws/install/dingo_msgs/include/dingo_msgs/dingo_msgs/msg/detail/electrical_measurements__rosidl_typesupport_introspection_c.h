@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_introspection_c.h

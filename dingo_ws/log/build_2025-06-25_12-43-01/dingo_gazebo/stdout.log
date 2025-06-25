@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating src/dingo_gazebo.egg-info
+writing src/dingo_gazebo.egg-info/PKG-INFO
+writing dependency_links to src/dingo_gazebo.egg-info/dependency_links.txt
+writing requirements to src/dingo_gazebo.egg-info/requires.txt
+writing top-level names to src/dingo_gazebo.egg-info/top_level.txt
+writing manifest file 'src/dingo_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'src/dingo_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'src/dingo_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo-gazebo.egg-link (link to src)
+
+Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/src
+running symlink_data
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/package.xml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/launch
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/launch/simulation.launch.py -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/launch
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/worlds/normal.world -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/worlds/empty.world -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/worlds/office.world -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/config/controllers.yaml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/config/gz_bridge.yaml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/resource/dingo_gazebo -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index/packages

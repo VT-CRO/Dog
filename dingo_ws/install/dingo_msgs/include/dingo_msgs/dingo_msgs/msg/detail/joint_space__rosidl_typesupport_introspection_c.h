@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_introspection_c.h

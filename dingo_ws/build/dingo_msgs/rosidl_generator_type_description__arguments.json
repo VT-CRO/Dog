@@ -1,0 +1,15 @@
+{
+  "package_name": "dingo_msgs",
+  "output_dir": "/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_type_description/dingo_msgs",
+  "idl_tuples": [
+    "/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs:msg/ElectricalMeasurements.idl",
+    "/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs:msg/Angle.idl",
+    "/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs:msg/JointSpace.idl",
+    "/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs:msg/TaskSpace.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros2_jazzy/ros2-linux/share/std_msgs",
+    "builtin_interfaces:/opt/ros2_jazzy/ros2-linux/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros2_jazzy/ros2-linux/share/geometry_msgs"
+  ]
+}

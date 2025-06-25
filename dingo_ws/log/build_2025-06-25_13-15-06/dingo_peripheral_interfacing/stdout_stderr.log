@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing src/dingo_peripheral_interfacing.egg-info/PKG-INFO
+writing dependency_links to src/dingo_peripheral_interfacing.egg-info/dependency_links.txt
+writing entry points to src/dingo_peripheral_interfacing.egg-info/entry_points.txt
+writing requirements to src/dingo_peripheral_interfacing.egg-info/requires.txt
+writing top-level names to src/dingo_peripheral_interfacing.egg-info/top_level.txt
+reading manifest file 'src/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+writing manifest file 'src/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo-peripheral-interfacing.egg-link (link to src)
+Installing dingo_lcd_interfacing script to /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/dingo_peripheral_interfacing
+
+Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/src
+running symlink_data

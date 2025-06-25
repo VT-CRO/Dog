@@ -1,0 +1,97 @@
+running develop
+running egg_info
+creating dingo_description.egg-info
+writing dingo_description.egg-info/PKG-INFO
+writing dependency_links to dingo_description.egg-info/dependency_links.txt
+writing requirements to dingo_description.egg-info/requires.txt
+writing top-level names to dingo_description.egg-info/top_level.txt
+writing manifest file 'dingo_description.egg-info/SOURCES.txt'
+reading manifest file 'dingo_description.egg-info/SOURCES.txt'
+writing manifest file 'dingo_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages/dingo-description.egg-link (link to .)
+
+Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description
+running symlink_data
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index/packages
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/resource/dingo_description -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index/packages
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/package.xml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/launch/gazebo.launch.py -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/launch/display.launch.py -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/front_left_fl_leg.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/leg1.trans -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/gazebo_control.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/dingo.core.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/dingo.urdf.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/front_right_fr_leg.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/leg1.gazebo -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/tmp_dingo.core.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/imu.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/inertial_macros.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/rear_right_rr_leg.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/materials.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/ros2_control.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/urdf/rear_left_rl_leg.xacro -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL1_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/link4.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L2_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R2_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL_link4.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR_link1.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L_link2_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL_link1.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR1_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R_link3.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL_link1.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL_link2.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR1_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R_link3_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R3_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R2_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL1_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR1_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR_link2.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR_link1.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR_link1.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R_link2.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/body_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL1_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR_link1.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L3_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR_link4.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/link4_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L3_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR_link2.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/base_link.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL_link3.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/base_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R_link2_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR_link3.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL1_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L_link1_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/body_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L_link2.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/base_link.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL_link1.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R_link1_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR_link3.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL_link3.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/main.py -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FR1_obj.obj -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/thread.jpg -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L2_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL_link4.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L_link3_collision.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/FL_link1.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RL_link2.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/R3_obj.mtl -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/L_link3.dae -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/meshes/RR_link4.STL -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/config/display.rviz -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/config/initial_positions.yaml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config

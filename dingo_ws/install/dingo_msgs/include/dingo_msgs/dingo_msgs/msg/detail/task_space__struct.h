@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c/dingo_msgs/msg/detail/task_space__struct.h

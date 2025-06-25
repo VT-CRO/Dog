@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_fastrtps_cpp/dingo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

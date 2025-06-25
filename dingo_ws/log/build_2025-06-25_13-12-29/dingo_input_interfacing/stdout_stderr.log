@@ -1,0 +1,12 @@
+running develop
+running egg_info
+writing src/dingo_input_interfacing.egg-info/PKG-INFO
+writing dependency_links to src/dingo_input_interfacing.egg-info/dependency_links.txt
+writing requirements to src/dingo_input_interfacing.egg-info/requires.txt
+writing top-level names to src/dingo_input_interfacing.egg-info/top_level.txt
+reading manifest file 'src/dingo_input_interfacing.egg-info/SOURCES.txt'
+writing manifest file 'src/dingo_input_interfacing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo-input-interfacing.egg-link (link to src)
+
+Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/src

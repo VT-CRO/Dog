@@ -1,0 +1,530 @@
+[0.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71555bf76990>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71555c08ea50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71555c08ea50>>)
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.114s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vtcro/Desktop/Dog/dingo_ws'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo' with type 'ros.ament_python' and name 'dingo'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_control) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_control' with type 'ros.ament_python' and name 'dingo_control'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_description) by extension 'ros'
+[0.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_description' with type 'ros.ament_python' and name 'dingo_description'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_gazebo) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_gazebo' with type 'ros.ament_python' and name 'dingo_gazebo'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_input_interfacing) by extension 'ros'
+[0.138s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_input_interfacing' with type 'ros.ament_python' and name 'dingo_input_interfacing'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_msgs) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_msgs' with type 'ros.ament_cmake' and name 'dingo_msgs'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_peripheral_interfacing) by extension 'ros'
+[0.139s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_peripheral_interfacing' with type 'ros.ament_python' and name 'dingo_peripheral_interfacing'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_servo_interfacing) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_servo_interfacing' with type 'ros.ament_python' and name 'dingo_servo_interfacing'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/dingo_utilities) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dingo_utilities' with type 'ros.ament_python' and name 'dingo_utilities'
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'dingo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo', 'symlink_install': True, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_control', 'symlink_install': True, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'dingo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_input_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_input_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_input_interfacing', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_peripheral_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_peripheral_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_peripheral_interfacing', 'symlink_install': True, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_servo_interfacing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_servo_interfacing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing', 'symlink_install': True, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'dingo_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'dingo_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities', 'merge_install': False, 'path': '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_utilities', 'symlink_install': True, 'test_result_base': None}
+[0.157s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.158s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.158s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo' with build type 'ament_python'
+[0.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo', 'ament_prefix_path')
+[0.160s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/hook/ament_prefix_path.dsv'
+[0.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/hook/ament_prefix_path.sh'
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_control' with build type 'ament_python'
+[0.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_control', 'ament_prefix_path')
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/hook/ament_prefix_path.dsv'
+[0.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/hook/ament_prefix_path.sh'
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description' with build type 'ament_python'
+[0.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_description', 'ament_prefix_path')
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/hook/ament_prefix_path.dsv'
+[0.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/hook/ament_prefix_path.sh'
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_gazebo' with build type 'ament_python'
+[0.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_gazebo', 'ament_prefix_path')
+[0.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/hook/ament_prefix_path.dsv'
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/hook/ament_prefix_path.sh'
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_input_interfacing' with build type 'ament_python'
+[0.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'ament_prefix_path')
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/ament_prefix_path.dsv'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/ament_prefix_path.sh'
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs' with build type 'ament_cmake'
+[0.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs'
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_peripheral_interfacing' with build type 'ament_python'
+[0.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'ament_prefix_path')
+[0.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/ament_prefix_path.dsv'
+[0.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/ament_prefix_path.sh'
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.228s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing' with build type 'ament_python'
+[0.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/ament_prefix_path.dsv'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/ament_prefix_path.sh'
+[0.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_utilities' with build type 'ament_python'
+[0.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_utilities', 'ament_prefix_path')
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/hook/ament_prefix_path.dsv'
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/hook/ament_prefix_path.sh'
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo'
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_control'
+[0.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.818s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description'
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_gazebo'
+[1.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.198s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_input_interfacing' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.198s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_input_interfacing' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.198s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_input_interfacing'
+[1.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --build /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j12 -l12
+[1.406s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_peripheral_interfacing'
+[1.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_servo_interfacing' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.600s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_servo_interfacing' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.600s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing'
+[1.600s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --build /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j12 -l12
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --install /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+[1.807s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_utilities' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.808s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'dingo_utilities' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.808s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_utilities'
+[1.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_msgs)
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --install /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+[1.840s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs' for CMake module files
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs' for CMake config files
+[1.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'cmake_prefix_path')
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/cmake_prefix_path.dsv'
+[1.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/cmake_prefix_path.sh'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib'
+[1.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'ld_library_path_lib')
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/ld_library_path_lib.dsv'
+[1.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/ld_library_path_lib.sh'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/bin'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/pkgconfig/dingo_msgs.pc'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages'
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'pythonpath')
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/pythonpath.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/pythonpath.sh'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/bin'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.sh'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.bash'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.zsh'
+[1.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/colcon-core/packages/dingo_msgs)
+[1.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_msgs)
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs' for CMake module files
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs' for CMake config files
+[1.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/cmake_prefix_path.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/cmake_prefix_path.sh'
+[1.853s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib'
+[1.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'ld_library_path_lib')
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/ld_library_path_lib.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/ld_library_path_lib.sh'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/bin'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/pkgconfig/dingo_msgs.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages'
+[1.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_msgs', 'pythonpath')
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/pythonpath.dsv'
+[1.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/hook/pythonpath.sh'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/bin'
+[1.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.dsv'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.sh'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.bash'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.zsh'
+[1.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/colcon-core/packages/dingo_msgs)
+[2.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/build --no-deps symlink_data
+[2.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/build --no-deps symlink_data
+[2.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/build --no-deps symlink_data
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/build --no-deps
+[2.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/build --no-deps symlink_data
+[2.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build --no-deps
+[2.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/build --no-deps
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build --no-deps symlink_data
+[3.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_control', 'pythonpath_develop')
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/src/share/dingo_control/hook/pythonpath_develop.dsv'
+[3.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/build --no-deps symlink_data
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_control/src/share/dingo_control/hook/pythonpath_develop.sh'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control' for CMake module files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control' for CMake config files
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/lib'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/bin'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/lib/pkgconfig/dingo_control.pc'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages'
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_control', 'pythonpath')
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/hook/pythonpath.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/hook/pythonpath.sh'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/bin'
+[3.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_control)
+[3.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/package.dsv'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/package.sh'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/package.bash'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/package.zsh'
+[3.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control/share/colcon-core/packages/dingo_control)
+[3.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo', 'pythonpath_develop')
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/src/share/dingo/hook/pythonpath_develop.dsv'
+[3.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/build --no-deps symlink_data
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo/src/share/dingo/hook/pythonpath_develop.sh'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo' for CMake module files
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo' for CMake config files
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/bin'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/pkgconfig/dingo.pc'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages'
+[3.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo', 'pythonpath')
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/hook/pythonpath.dsv'
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/hook/pythonpath.sh'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/bin'
+[3.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo)
+[3.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/package.dsv'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/package.sh'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/package.bash'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/package.zsh'
+[3.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/colcon-core/packages/dingo)
+[3.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'pythonpath_develop')
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/src/share/dingo_input_interfacing/hook/pythonpath_develop.dsv'
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/build --no-deps
+[3.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/src/share/dingo_input_interfacing/hook/pythonpath_develop.sh'
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing' for CMake module files
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing' for CMake config files
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib'
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/bin'
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/pkgconfig/dingo_input_interfacing.pc'
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages'
+[3.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_input_interfacing', 'pythonpath')
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pythonpath.dsv'
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/hook/pythonpath.sh'
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/bin'
+[3.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_input_interfacing)
+[3.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.dsv'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.sh'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.bash'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/dingo_input_interfacing/package.zsh'
+[3.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/share/colcon-core/packages/dingo_input_interfacing)
+[3.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_gazebo', 'pythonpath_develop')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/src/share/dingo_gazebo/hook/pythonpath_develop.dsv'
+[3.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/build --no-deps symlink_data
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_gazebo/src/share/dingo_gazebo/hook/pythonpath_develop.sh'
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo' for CMake module files
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo' for CMake config files
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/bin'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/pkgconfig/dingo_gazebo.pc'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages'
+[3.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_gazebo', 'pythonpath')
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/hook/pythonpath.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/hook/pythonpath.sh'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/bin'
+[3.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_gazebo)
+[3.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/package.dsv'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/package.sh'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/package.bash'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/package.zsh'
+[3.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/colcon-core/packages/dingo_gazebo)
+[3.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_utilities', 'pythonpath_develop')
+[3.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/build --no-deps
+[3.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/src/share/dingo_utilities/hook/pythonpath_develop.dsv'
+[3.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_utilities/src/share/dingo_utilities/hook/pythonpath_develop.sh'
+[3.337s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities' for CMake module files
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities' for CMake config files
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/lib'
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/bin'
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/lib/pkgconfig/dingo_utilities.pc'
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/lib/python3.12/site-packages'
+[3.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_utilities', 'pythonpath')
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/hook/pythonpath.dsv'
+[3.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/hook/pythonpath.sh'
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/bin'
+[3.340s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_utilities)
+[3.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/package.dsv'
+[3.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/package.sh'
+[3.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/package.bash'
+[3.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/dingo_utilities/package.zsh'
+[3.342s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities/share/colcon-core/packages/dingo_utilities)
+[3.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'pythonpath_develop')
+[3.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build --no-deps
+[3.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/src/share/dingo_servo_interfacing/hook/pythonpath_develop.dsv'
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/src/share/dingo_servo_interfacing/hook/pythonpath_develop.sh'
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing' for CMake module files
+[3.466s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing' for CMake config files
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/bin'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/pkgconfig/dingo_servo_interfacing.pc'
+[3.467s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages'
+[3.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_servo_interfacing', 'pythonpath')
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pythonpath.dsv'
+[3.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/hook/pythonpath.sh'
+[3.468s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/bin'
+[3.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_servo_interfacing)
+[3.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.dsv'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.sh'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.bash'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/dingo_servo_interfacing/package.zsh'
+[3.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/share/colcon-core/packages/dingo_servo_interfacing)
+[3.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_description', 'pythonpath_develop')
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/share/dingo_description/hook/pythonpath_develop.dsv'
+[3.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/build --no-deps symlink_data
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/share/dingo_description/hook/pythonpath_develop.sh'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description' for CMake module files
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description' for CMake config files
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib'
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/bin'
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib/pkgconfig/dingo_description.pc'
+[3.489s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages'
+[3.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_description', 'pythonpath')
+[3.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/hook/pythonpath.dsv'
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/hook/pythonpath.sh'
+[3.490s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/bin'
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_description)
+[3.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/package.dsv'
+[3.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/package.sh'
+[3.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/package.bash'
+[3.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/package.zsh'
+[3.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description/share/colcon-core/packages/dingo_description)
+[3.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'pythonpath_develop')
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/src/share/dingo_peripheral_interfacing/hook/pythonpath_develop.dsv'
+[3.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build --no-deps symlink_data
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/src/share/dingo_peripheral_interfacing/hook/pythonpath_develop.sh'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing' for CMake module files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing' for CMake config files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/bin'
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/pkgconfig/dingo_peripheral_interfacing.pc'
+[3.495s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages'
+[3.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('dingo_peripheral_interfacing', 'pythonpath')
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pythonpath.dsv'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/hook/pythonpath.sh'
+[3.495s] Level 1:colcon.colcon_core.environment:checking '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/bin'
+[3.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dingo_peripheral_interfacing)
+[3.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.dsv'
+[3.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.sh'
+[3.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.bash'
+[3.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/package.zsh'
+[3.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/colcon-core/packages/dingo_peripheral_interfacing)
+[3.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.497s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.522s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vtcro/Desktop/Dog/dingo_ws/install/local_setup.sh'
+[3.523s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vtcro/Desktop/Dog/dingo_ws/install/_local_setup_util_sh.py'
+[3.524s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vtcro/Desktop/Dog/dingo_ws/install/setup.sh'
+[3.525s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vtcro/Desktop/Dog/dingo_ws/install/local_setup.bash'
+[3.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vtcro/Desktop/Dog/dingo_ws/install/setup.bash'
+[3.526s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vtcro/Desktop/Dog/dingo_ws/install/local_setup.zsh'
+[3.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vtcro/Desktop/Dog/dingo_ws/install/setup.zsh'

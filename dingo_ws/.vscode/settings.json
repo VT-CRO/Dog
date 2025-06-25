@@ -1,0 +1,11 @@
+{
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/vtcro/Desktop/dog/vt-cro/dog/dingo_description_ws/install/dingo_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/vtcro/Desktop/dog/vt-cro/dog/dingo_description_ws/install/dingo_description/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

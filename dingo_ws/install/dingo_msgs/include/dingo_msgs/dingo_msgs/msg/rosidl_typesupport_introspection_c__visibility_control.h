@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_introspection_c/dingo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

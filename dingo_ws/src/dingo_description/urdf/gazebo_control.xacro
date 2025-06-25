@@ -1,0 +1,31 @@
+<!-- This XML file is a configuration for a robot simulation in Gazebo (often used with ROS). 
+It sets up plugins that tell the simulator how to model and interact with a differential drive robot.  -->
+
+<?xml version="1.0"?> 
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 1) GzRos2Control to link Gazebo with ros2_control controllers -->
+<gazebo>
+  <plugin name="gz_ros2_control" filename="libgz_ros2_control-system.so"/>
+</gazebo>
+
+<!-- 2) JointStatePublisher to publish leg joint states -->
+<gazebo>
+  <plugin filename="gz-sim-joint-state-publisher-system"
+          name="gz::sim::systems::JointStatePublisher">
+    <topic>joint_states</topic>
+    <joint_name>fr_theta1</joint_name>
+    <joint_name>fr_theta2</joint_name>
+    <joint_name>fr_theta3</joint_name>
+    <joint_name>fl_theta1</joint_name>
+    <joint_name>fl_theta2</joint_name>
+    <joint_name>fl_theta3</joint_name>
+    <joint_name>rr_theta1</joint_name>
+    <joint_name>rr_theta2</joint_name>
+    <joint_name>rr_theta3</joint_name>
+    <joint_name>rl_theta1</joint_name>
+    <joint_name>rl_theta2</joint_name>
+    <joint_name>rl_theta3</joint_name>
+  </plugin>
+</gazebo>
+
+</robot>

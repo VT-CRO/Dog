@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c/dingo_msgs/msg/detail/angle__type_support.h

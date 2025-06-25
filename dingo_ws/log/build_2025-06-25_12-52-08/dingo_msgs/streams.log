@@ -1,0 +1,175 @@
+[1.000s] Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --build /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j12 -l12
+[1.400s] [  1%] Built target dingo_msgs__rosidl_generator_type_description
+[1.400s] [  1%] Built target ament_cmake_python_symlink_dingo_msgs
+[1.400s] [  3%] Built target dingo_msgs__cpp
+[1.400s] [ 25%] Built target dingo_msgs__rosidl_generator_c
+[1.401s] [ 34%] Built target dingo_msgs__rosidl_typesupport_c
+[1.401s] [ 43%] Built target dingo_msgs__rosidl_typesupport_introspection_c
+[1.401s] [ 53%] Built target dingo_msgs__rosidl_typesupport_introspection_cpp
+[1.401s] [ 67%] Built target dingo_msgs__rosidl_typesupport_fastrtps_c
+[1.401s] [ 71%] Built target dingo_msgs__rosidl_typesupport_cpp
+[1.401s] [ 81%] Built target dingo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.401s] [ 81%] Built target dingo_msgs
+[1.401s] [ 82%] Built target dingo_msgs__py
+[1.401s] [ 90%] Built target dingo_msgs__rosidl_generator_py
+[1.401s] [ 93%] Built target dingo_msgs_s__rosidl_typesupport_introspection_c
+[1.401s] [ 96%] Built target dingo_msgs_s__rosidl_typesupport_c
+[1.401s] [100%] Built target dingo_msgs_s__rosidl_typesupport_fastrtps_c
+[1.401s] running egg_info
+[1.401s] writing dingo_msgs.egg-info/PKG-INFO
+[1.401s] writing dependency_links to dingo_msgs.egg-info/dependency_links.txt
+[1.401s] writing top-level names to dingo_msgs.egg-info/top_level.txt
+[1.401s] reading manifest file 'dingo_msgs.egg-info/SOURCES.txt'
+[1.401s] writing manifest file 'dingo_msgs.egg-info/SOURCES.txt'
+[1.401s] [100%] Built target ament_cmake_python_build_dingo_msgs_egg
+[1.402s] Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --build /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j12 -l12
+[1.413s] Invoking command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --install /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+[1.608s] -- Install configuration: ""
+[1.608s] -- Execute custom install script
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/rosidl_interfaces/dingo_msgs
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.json
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.json
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.json
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.json
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/angle.h
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__functions.h
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__struct.h
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.h
+[1.608s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__functions.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__struct.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__functions.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__struct.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__functions.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__struct.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/electrical_measurements.h
+[1.609s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/joint_space.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/task_space.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/library_path.sh
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/library_path.dsv
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_fastrtps_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_fastrtps_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_introspection_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_introspection_c.h
+[1.610s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_introspection_c.h
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_introspection_c.h
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/angle.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__builder.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__struct.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__traits.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__builder.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__struct.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__traits.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__builder.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__struct.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__traits.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.hpp
+[1.611s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__builder.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__struct.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__traits.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/electrical_measurements.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/joint_space.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/task_space.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_cpp.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_fastrtps_cpp.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_fastrtps_cpp.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[1.612s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_introspection_cpp.hpp
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_introspection_cpp.hpp
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_introspection_cpp.hpp
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/pythonpath.sh
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/pythonpath.dsv
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/__init__.py
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_c.c
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.613s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/__init__.py
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_angle.py
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_angle_s.c
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_electrical_measurements.py
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_electrical_measurements_s.c
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_joint_space.py
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_joint_space_s.c
+[1.615s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_task_space.py
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_task_space_s.c
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.idl
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.idl
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.idl
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.idl
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.msg
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.msg
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.msg
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.msg
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/package_run_dependencies/dingo_msgs
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/parent_prefix_path/dingo_msgs
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/ament_prefix_path.sh
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/ament_prefix_path.dsv
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/path.sh
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/path.dsv
+[1.616s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.bash
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.sh
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.zsh
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.dsv
+[1.617s] -- Symlinking: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.dsv
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/packages/dingo_msgs
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgsConfig.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgsConfig-version.cmake
+[1.617s] -- Up-to-date symlink: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.xml
+[1.617s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_c.so
+[1.617s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_c.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_c.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_c.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_cpp.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_cpp.so
+[1.618s] Listing '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs'...
+[1.618s] Listing '/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg'...
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_py.so
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cppExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.618s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cppExport.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_pyExport.cmake
+[1.619s] -- Up-to-date: /home/vtcro/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.627s] Invoked command in '/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_utilities:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_input_interfacing:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_gazebo:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_description:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo_control:/home/vtcro/Desktop/Dog/dingo_ws/install/dingo:/home/vtcro/car_robot_ws/install/my_robot_pkg:/home/vtcro/car_robot_ws/install/model_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-venv) /usr/bin/cmake --install /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs

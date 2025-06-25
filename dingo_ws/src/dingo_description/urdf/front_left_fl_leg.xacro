@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- fl_link1 -->
+    <link name="fl_link1">
+        <inertial>
+        <origin xyz="0 0 0"/>
+        <mass value="0.30000000"/>
+        <inertia ixx="0.00019300" ixy="0.00000000" ixz="0.00000000" iyy="0.00014890" iyz="0.00000000" izz="0.00012410"/>
+        </inertial>
+        <visual>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/FL_link1.dae" />
+        </geometry>
+        <material
+            name="">
+            <color
+            rgba="0.79216 0.81961 0.93333 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/L_link1_collision.STL" />
+        </geometry>
+        </collision>
+    </link>
+
+    <!-- fl_link2 -->
+    <link name="fl_link2">
+        <inertial>
+        <origin xyz="0 0 0"/>
+        <mass value="0.10000000"/>
+        <inertia ixx="0.00000700" ixy="0.00000000" ixz="0.00000444" iyy="0.00017260" iyz="0.00000000" izz="0.00017568"/>
+        </inertial>
+
+        <visual>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/L_link2.dae" />
+        </geometry>
+        <material
+            name="">
+            <color
+            rgba="0.79216 0.81961 0.93333 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/L_link2_collision.STL" />
+        </geometry>
+        </collision>
+    </link>
+
+    <!-- fl_link3 -->
+    <link name="fl_link3">
+        <inertial>
+        <origin xyz="0 0 0"/>
+        <mass value="0.10000000"/>
+        <inertia ixx="0.00000936" ixy="-0.00001360" ixz="-0.00000319" iyy="0.00019747" iyz="-0.00000027" izz="0.00019702"/>
+        </inertial>
+
+        <visual>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/L_link3.dae" />
+        </geometry>
+        <material
+            name="">
+            <color
+            rgba="0.79216 0.81961 0.93333 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin
+            xyz="0 0 0"
+            rpy="0 0 0" />
+        <geometry>
+            <mesh
+            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/L_link3_collision.STL" />
+        </geometry>
+        </collision>
+    </link>
+
+    <!-- fl_link4 -->
+    <link name="fl_link4">
+        <inertial>
+            <origin xyz="0 0 0"/>
+            <mass value="0.1000000"/>
+            <inertia ixx="0.00000060" ixy="-0.00000013" ixz="0.00000000" iyy="0.00000058" iyz="0.00000000" izz="0.00000045"/>
+        </inertial>
+
+        <!-- <visual>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+            <mesh
+                filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4.dae" />
+            </geometry>
+            <material
+            name="">
+            <color
+                rgba="0.79216 0.81961 0.93333 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+            <mesh
+                filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4_collision.STL" />
+            </geometry>
+        </collision> -->
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.04 0.04 0.01"/>
+            </geometry>
+        </collision>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.04 0.04 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <!--JOINTS-->
+
+    <joint name="fl_theta1" type="revolute">
+        <origin
+            xyz="0.11165 0.061 -0.0144"
+            rpy="1.5708 0 1.5708" />
+        <parent link="base_link" />
+        <child link="fl_link1" />
+        <axis xyz="0 0 1" />
+        <limit
+            lower="-0.785398"
+            upper="0.785398"
+            effort="100.0"
+            velocity="3" />
+        <!-- <joint_properties damping="1000.0" friction="1000.0"/> -->
+        <joint_properties damping="1.0" friction="0.5"/>
+    </joint>
+    <joint name="fl_theta2" type="revolute">
+        <origin
+            xyz="0.0496000007984339 0.014400000013256 0"
+            rpy="1.57079634307336 1.57079568414183 -1.57079631051644" />
+        <parent link="fl_link1" />
+        <child link="fl_link2" />
+        <axis xyz="0 0 1" />
+        <limit
+            lower="-3"
+            upper="3"
+            effort="100.0"
+            velocity="3" />
+        <!-- <joint_properties damping="1000.0" friction="1000.0"/> -->
+        <joint_properties damping="1.0" friction="0.5"/>
+    </joint>
+    <joint name="fl_theta3" type="revolute">
+        <origin
+            xyz="0.129999999999897 0 0"
+            rpy="0 0 1.57079594774422" />
+        <parent link="fl_link2" />
+        <child link="fl_link3" />
+        <axis xyz="0 0 1" />
+        <limit
+            lower="-3"
+            upper="3"
+            effort="100.0"
+            velocity="3" />
+        <!-- <joint_properties damping="1000.0" friction="1000.0"/> -->
+        <joint_properties damping="1.0" friction="0.5"/>
+    </joint>
+    <joint name="fl_foot" type="fixed">
+        <origin
+            xyz="0.138136646352288 0 0"
+            rpy="0 0 0" />
+        <parent link="fl_link3" />
+        <child link="fl_link4" />
+        <axis xyz="0 0 0" />
+    </joint>
+
+    <!--GAZEBO-->
+
+    <!-- FL4 friction -->
+    <gazebo reference="fl_link4">
+        <material>Gazebo/Red</material>
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+        <kp>1000000</kp>
+        <kd>10</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.01</maxVel>
+        <!-- <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+        <minDepth>0.0002</minDepth>
+        <kp  value="1000000.0"/>
+        <kd  value="100.0"/> -->
+    </gazebo>
+
+</robot>

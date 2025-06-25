@@ -1,0 +1,45 @@
+<launch>
+
+    <!-- Empty World -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(find dingo_gazebo)/launch/world/normal.world"/>
+      <arg name="use_sim_time" value="true"/>
+      <!--<arg name="paused" value="true"/>-->
+    </include>
+
+    <!-- Robot -->
+    <arg name="robot" default="$(find dingo_description)/urdf/dingo.urdf"/>
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg robot)" />
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf 
+    -z 3
+
+    -model dingo_gazebo"/>
+
+    <!--     -J fr_theta2 0.72646626
+    -J fl_theta2 0.72646626
+    -J rr_theta2 0.72646626
+    -J rl_theta2 0.72646626
+    -J fr_theta1 0.0
+    -J fl_theta1 0.0
+    -J rr_theta1 0.0
+    -J rl_theta1 0.0
+    -J fr_theta3 0.0
+    -J fl_theta3 0.0
+    -J rr_theta3 0.0
+    -J rl_theta3 0.0-->
+
+    <!-- Controllers -->
+    <rosparam file="$(find dingo_gazebo)/config/controllers.yaml" command="load"/>
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" output="screen" ns="dingo_controller"
+          args="fr_theta1 fr_theta2 fr_theta3
+                fl_theta1 fl_theta2 fl_theta3
+                rr_theta1 rr_theta2 rr_theta3
+                rl_theta1 rl_theta2 rl_theta3"/>
+
+    <!-- Robot State Publisher -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher"  name="robot_state_publisher" respawn="false" output="screen">
+      <remap from="/joint_states" to="/dingo_gazebo/joint_states" />
+      <param name="publish_frequency" type="double" value="10" />
+    </node>
+  
+</launch>

@@ -1,0 +1,6 @@
+source;share/dingo_input_interfacing/hook/pythonpath.dsv
+source;share/dingo_input_interfacing/hook/pythonpath.sh
+source;share/dingo_input_interfacing/hook/ament_prefix_path.dsv
+source;share/dingo_input_interfacing/hook/ament_prefix_path.sh
+source;../../build/dingo_input_interfacing/src/share/dingo_input_interfacing/hook/pythonpath_develop.dsv
+source;../../build/dingo_input_interfacing/src/share/dingo_input_interfacing/hook/pythonpath_develop.sh

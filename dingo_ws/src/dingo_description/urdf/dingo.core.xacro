@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="dingo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="inertial_macros.xacro"/>
+
+  <!-- <link name="world">
+
+  </link>
+
+  <joint name="">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    <dynamics damping="0.01" friction="0.0"/>
+  </joint> -->
+
+  <!-- base_link -->
+  <link name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.1 0 0"
+        rpy="0 0 0" />
+      <mass value="3.0" />
+      <!-- <mass value="0.81776" /> -->
+      <!-- <inertia
+        ixx="0.00058474"
+        ixy="-1.0045E-06"
+        ixz="1.0886E-08"
+        iyy="0.00029699"
+        iyz="3.2027E-08"
+        izz="0.00063853" /> -->
+        <inertia
+        ixx="0.02"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="0.02"
+        iyz="0.0"
+        izz="0.03"/>
+
+    </inertial>
+
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_link.dae" />
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_collision.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <gazebo reference="base_link">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <dampingFactor>0.1</dampingFactor>
+    <kp>1000000.0</kp>
+    <kd>10.0</kd>
+  </gazebo>
+
+
+  <!-- Leg links and joints (includes) -->
+  <xacro:include filename="front_left_fl_leg.xacro"/>
+  <xacro:include filename="front_right_fr_leg.xacro"/>
+  <xacro:include filename="rear_left_rl_leg.xacro"/>
+  <xacro:include filename="rear_right_rr_leg.xacro"/>
+  
+  <!-- <xacro:include filename="imu.xacro"/> -->
+
+  <!-- Transmission -->
+  <transmission name="tran1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fr_theta1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fr_theta2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fr_theta3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran4">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fl_theta1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor4">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran5">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fl_theta2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor5">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran6">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="fl_theta3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor6">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran7">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rr_theta1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor7">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran8">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rr_theta2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor8">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran9">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rr_theta3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor9">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran10">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rl_theta1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor10">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran11">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rl_theta2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor11">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran12">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rl_theta3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor12">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>5</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+</robot>

@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating src/dingo.egg-info
+writing src/dingo.egg-info/PKG-INFO
+writing dependency_links to src/dingo.egg-info/dependency_links.txt
+writing entry points to src/dingo.egg-info/entry_points.txt
+writing requirements to src/dingo.egg-info/requires.txt
+writing top-level names to src/dingo.egg-info/top_level.txt
+writing manifest file 'src/dingo.egg-info/SOURCES.txt'
+reading manifest file 'src/dingo.egg-info/SOURCES.txt'
+writing manifest file 'src/dingo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo.egg-link (link to src)
+Installing dingo_driver script to /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/lib/dingo
+
+Installed /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/src
+running symlink_data
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/package.xml -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/launch/dingo.launch.py -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/ament_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index
+creating /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages
+symbolically linking /home/vtcro/Desktop/Dog/dingo_ws/build/dingo/resource/dingo -> /home/vtcro/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages

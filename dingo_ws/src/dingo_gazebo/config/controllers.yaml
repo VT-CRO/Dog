@@ -1,0 +1,72 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    fl_leg_group:
+      type: position_controllers/JointGroupPositionController
+
+    fr_leg_group:
+      type: position_controllers/JointGroupPositionController
+
+    rl_leg_group:
+      type: position_controllers/JointGroupPositionController
+
+    rr_leg_group:
+      type: position_controllers/JointGroupPositionController
+
+
+# -----------------------------
+# Each LEG group configuration
+# -----------------------------
+
+fl_leg_group:
+  ros__parameters:
+    joints:
+      - fl_theta1
+      - fl_theta2
+      - fl_theta3
+    gains:
+      fl_theta1: {p: 9.0, i: 0.03, d: 0.3055}
+      fl_theta2: {p: 9.0, i: 0.03, d: 0.3055}
+      fl_theta3: {p: 9.0, i: 0.03, d: 0.3055}
+
+fr_leg_group:
+  ros__parameters:
+    joints:
+      - fr_theta1
+      - fr_theta2
+      - fr_theta3
+    gains:
+      fr_theta1: {p: 9.0, i: 0.03, d: 0.3055}
+      fr_theta2: {p: 9.0, i: 0.03, d: 0.3055}
+      fr_theta3: {p: 9.0, i: 0.03, d: 0.3055}
+
+rl_leg_group:
+  ros__parameters:
+    joints:
+      - rl_theta1
+      - rl_theta2
+      - rl_theta3
+    gains:
+      rl_theta1: {p: 9.0, i: 0.03, d: 0.3055}
+      rl_theta2: {p: 9.0, i: 0.03, d: 0.3055}
+      rl_theta3: {p: 9.0, i: 0.03, d: 0.3055}
+
+rr_leg_group:
+  ros__parameters:
+    joints:
+      - rr_theta1
+      - rr_theta2
+      - rr_theta3
+    gains:
+      rr_theta1: {p: 9.0, i: 0.03, d: 0.3055}
+      rr_theta2: {p: 9.0, i: 0.03, d: 0.3055}
+      rr_theta3: {p: 9.0, i: 0.03, d: 0.3055}
+
+#pid: {p: 9, i: 0.03, d: 0.3055, i_clamp_min:  -1000, i_clamp_max: 1000}
+
+  

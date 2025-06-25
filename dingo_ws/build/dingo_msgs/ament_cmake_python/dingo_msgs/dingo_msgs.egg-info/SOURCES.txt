@@ -1,0 +1,11 @@
+setup.py
+dingo_msgs/__init__.py
+dingo_msgs.egg-info/PKG-INFO
+dingo_msgs.egg-info/SOURCES.txt
+dingo_msgs.egg-info/dependency_links.txt
+dingo_msgs.egg-info/top_level.txt
+dingo_msgs/msg/__init__.py
+dingo_msgs/msg/_angle.py
+dingo_msgs/msg/_electrical_measurements.py
+dingo_msgs/msg/_joint_space.py
+dingo_msgs/msg/_task_space.py

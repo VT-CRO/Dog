@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+launch/simulation.launch.py
+resource/dingo_gazebo
+src/dingo_gazebo.egg-info/PKG-INFO
+src/dingo_gazebo.egg-info/SOURCES.txt
+src/dingo_gazebo.egg-info/dependency_links.txt
+src/dingo_gazebo.egg-info/requires.txt
+src/dingo_gazebo.egg-info/top_level.txt
+src/dingo_gazebo.egg-info/zip-safe

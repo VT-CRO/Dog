@@ -1,0 +1,82 @@
+import os
+
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, GroupAction
+from launch.conditions import IfCondition
+from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
+
+
+def generate_launch_description():
+
+    # Declare arguments (equivalent to <arg>)
+    is_sim = DeclareLaunchArgument('is_sim', default_value='0')
+    is_physical = DeclareLaunchArgument('is_physical', default_value='1')
+    use_joystick = DeclareLaunchArgument('use_joystick', default_value='1')
+    use_keyboard = DeclareLaunchArgument('use_keyboard', default_value='0')
+    serial_port = DeclareLaunchArgument('serial_port', default_value='/dev/ttyS0')
+    use_imu = DeclareLaunchArgument('use_imu', default_value='0')
+
+    # Communication Node (rosserial)
+    rosserial_node = Node(
+        package='rosserial_python',
+        executable='serial_node.py',
+        name='dingo_rosserial',
+        arguments=[LaunchConfiguration('serial_port')],
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('is_physical'))
+    )
+
+    # LCD Node
+    lcd_node = Node(
+        package='dingo_peripheral_interfacing',
+        executable='dingo_lcd_interfacing.py',
+        name='dingo_LCD_node',
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('is_physical'))
+    )
+
+    # Joystick Node
+    joystick_node = Node(
+        package='joy',
+        executable='joy_node',
+        name='JOYSTICK',
+        parameters=[{'autorepeat_rate': 30}],
+        condition=IfCondition(LaunchConfiguration('use_joystick'))
+    )
+
+    # Keyboard Node
+    keyboard_node = Node(
+        package='dingo_input_interfacing',
+        executable='Keyboard.py',
+        name='keyboard_input_listener',
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('use_keyboard'))
+    )
+
+    # Dingo Driver Node
+    dingo_driver_node = Node(
+        package='dingo',
+        executable='dingo_driver.py',
+        name='dingo',
+        arguments=[
+            LaunchConfiguration('is_sim'),
+            LaunchConfiguration('is_physical'),
+            LaunchConfiguration('use_imu')
+        ],
+        output='screen'
+    )
+
+    return LaunchDescription([
+        is_sim,
+        is_physical,
+        use_joystick,
+        use_keyboard,
+        serial_port,
+        use_imu,
+        rosserial_node,
+        lcd_node,
+        joystick_node,
+        keyboard_node,
+        dingo_driver_node
+    ])

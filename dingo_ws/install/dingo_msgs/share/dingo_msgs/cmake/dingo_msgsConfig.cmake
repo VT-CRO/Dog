@@ -1,0 +1,1 @@
+/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_core/dingo_msgsConfig.cmake
