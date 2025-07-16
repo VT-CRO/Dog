@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/dependency_links.txt
+writing requirements to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/requires.txt
+writing top-level names to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/top_level.txt
+reading manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying src/dingo_servo_interfacing/HardwareInterfaceArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+running install
+running install_lib
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/HardwareInterfaceArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/HardwareInterfaceArduino.py to HardwareInterfaceArduino.cpython-312.pyc
+running install_egg_info
+removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log'

@@ -1,1 +1,2 @@
-/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/ElectricalMeasurements.msg
+float32 battery_voltage_level
+float32 servo_buck_voltage_level

@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info
+writing ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/dependency_links.txt
+writing entry points to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/entry_points.txt
+writing requirements to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/requires.txt
+writing top-level names to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/top_level.txt
+writing manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+reading manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/lcdconfig.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/LCD_1inch47.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/IMU.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/battery_voltage_checking.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/imu_test.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+copying src/dingo_peripheral_interfacing/dingo_lcd_interfacing.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing
+running install
+running install_lib
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/lcdconfig.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/LCD_1inch47.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/IMU.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/battery_voltage_checking.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/imu_test.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build/lib/dingo_peripheral_interfacing/dingo_lcd_interfacing.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/lcdconfig.py to lcdconfig.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/LCD_1inch47.py to LCD_1inch47.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/IMU.py to IMU.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/battery_voltage_checking.py to battery_voltage_checking.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/imu_test.py to imu_test.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing/dingo_lcd_interfacing.py to dingo_lcd_interfacing.cpython-312.pyc
+running install_data
+copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/dingo_peripheral_interfacing/launch
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/ament_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index/packages
+copying resource/dingo_peripheral_interfacing -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dingo_lcd_interfacing script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/dingo_peripheral_interfacing
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/install.log'

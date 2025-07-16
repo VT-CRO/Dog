@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/dingo/dingo.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo/dingo.egg-info/dependency_links.txt
+writing entry points to ../../build/dingo/dingo.egg-info/entry_points.txt
+writing requirements to ../../build/dingo/dingo.egg-info/requires.txt
+writing top-level names to ../../build/dingo/dingo.egg-info/top_level.txt
+reading manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying src/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+running install
+running install_lib
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/dingo_driver.py to dingo_driver.cpython-312.pyc
+running install_data
+copying launch/dingo.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+running install_egg_info
+removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dingo/dingo.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dingo_driver script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/dingo
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo/install.log'

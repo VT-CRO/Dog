@@ -1,1 +1,24 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs/msg/JointSpace.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_msgs/msg/JointSpace.msg
+// generated code does not contain a copyright notice
+
+#include "dingo_msgs/msg/Angle.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dingo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "JointSpace.msg")
+    struct JointSpace {
+      std_msgs::msg::Header header;
+
+      dingo_msgs::msg::Angle fl_foot;
+
+      dingo_msgs::msg::Angle fr_foot;
+
+      dingo_msgs::msg::Angle rl_foot;
+
+      dingo_msgs::msg::Angle rr_foot;
+    };
+  };
+};

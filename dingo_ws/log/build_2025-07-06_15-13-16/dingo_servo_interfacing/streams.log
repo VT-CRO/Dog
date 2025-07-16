@@ -1,0 +1,41 @@
+[4.472s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_servo_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log --single-version-externally-managed
+[5.672s] running egg_info
+[5.673s] creating ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info
+[5.747s] writing ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/PKG-INFO
+[5.749s] writing dependency_links to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/dependency_links.txt
+[5.751s] writing requirements to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/requires.txt
+[5.752s] writing top-level names to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/top_level.txt
+[5.753s] writing manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+[5.876s] reading manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+[5.878s] writing manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+[5.879s] running build
+[5.881s] running build_py
+[5.881s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build
+[5.882s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib
+[5.883s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.884s] copying src/dingo_servo_interfacing/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.885s] copying src/dingo_servo_interfacing/HardwareInterfaceArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.887s] copying src/dingo_servo_interfacing/ServoCalibrationDefinition.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.887s] copying src/dingo_servo_interfacing/CalibrateServos.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.887s] copying src/dingo_servo_interfacing/HardwareInterface.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.888s] copying src/dingo_servo_interfacing/ServoCalibrationDefinitionArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing
+[5.888s] running install
+[5.904s] running install_lib
+[5.957s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.958s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.958s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/HardwareInterfaceArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.958s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/ServoCalibrationDefinition.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.959s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/CalibrateServos.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.959s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/HardwareInterface.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.959s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build/lib/dingo_servo_interfacing/ServoCalibrationDefinitionArduino.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing
+[5.960s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/__init__.py to __init__.cpython-312.pyc
+[5.960s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/HardwareInterfaceArduino.py to HardwareInterfaceArduino.cpython-312.pyc
+[5.964s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/ServoCalibrationDefinition.py to ServoCalibrationDefinition.cpython-312.pyc
+[5.965s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/CalibrateServos.py to CalibrateServos.cpython-312.pyc
+[5.968s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/HardwareInterface.py to HardwareInterface.cpython-312.pyc
+[5.973s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing/ServoCalibrationDefinitionArduino.py to ServoCalibrationDefinitionArduino.cpython-312.pyc
+[5.976s] running install_egg_info
+[6.040s] Copying ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info
+[6.043s] running install_scripts
+[6.503s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log'
+[6.672s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_servo_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log --single-version-externally-managed

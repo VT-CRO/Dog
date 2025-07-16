@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+../../build/dingo_utilities/dingo_utilities.egg-info/PKG-INFO
+../../build/dingo_utilities/dingo_utilities.egg-info/SOURCES.txt
+../../build/dingo_utilities/dingo_utilities.egg-info/dependency_links.txt
+../../build/dingo_utilities/dingo_utilities.egg-info/requires.txt
+../../build/dingo_utilities/dingo_utilities.egg-info/top_level.txt
+../../build/dingo_utilities/dingo_utilities.egg-info/zip-safe
+src/dingo_utilities/Tests.py
+src/dingo_utilities/Utilities.py
+src/dingo_utilities/__init__.py

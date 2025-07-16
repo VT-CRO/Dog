@@ -1,1 +1,3 @@
-/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/Angle.msg
+float32 theta1
+float32 theta2
+float32 theta3

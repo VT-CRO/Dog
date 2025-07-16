@@ -1,6 +1,6 @@
+source;share/dingo_control/hook/pythonpath.ps1
 source;share/dingo_control/hook/pythonpath.dsv
 source;share/dingo_control/hook/pythonpath.sh
+source;share/dingo_control/hook/ament_prefix_path.ps1
 source;share/dingo_control/hook/ament_prefix_path.dsv
 source;share/dingo_control/hook/ament_prefix_path.sh
-source;../../build/dingo_control/src/share/dingo_control/hook/pythonpath_develop.dsv
-source;../../build/dingo_control/src/share/dingo_control/hook/pythonpath_develop.sh

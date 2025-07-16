@@ -1,9 +1,9 @@
 {
   "package_name": "dingo_msgs",
   "non_idl_tuples": [
-    "/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/ElectricalMeasurements.msg",
-    "/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/Angle.msg",
-    "/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/JointSpace.msg",
-    "/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/TaskSpace.msg"
+    "/home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/ElectricalMeasurements.msg",
+    "/home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/Angle.msg",
+    "/home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/JointSpace.msg",
+    "/home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs:msg/TaskSpace.msg"
   ]
 }

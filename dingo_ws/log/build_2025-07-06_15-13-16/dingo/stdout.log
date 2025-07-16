@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/dingo/dingo.egg-info
+writing ../../build/dingo/dingo.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo/dingo.egg-info/dependency_links.txt
+writing entry points to ../../build/dingo/dingo.egg-info/entry_points.txt
+writing requirements to ../../build/dingo/dingo.egg-info/requires.txt
+writing top-level names to ../../build/dingo/dingo.egg-info/top_level.txt
+writing manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+reading manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+copying src/dingo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+copying src/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+copying src/dingo/status_publisher.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+copying src/dingo/run_robot.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+running install
+running install_lib
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/status_publisher.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/run_robot.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/dingo_driver.py to dingo_driver.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py to status_publisher.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/run_robot.py to run_robot.cpython-312.pyc
+running install_data
+copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+copying launch/dingo.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages
+copying resource/dingo -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/dingo/dingo.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dingo_driver script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/dingo
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo/install.log'

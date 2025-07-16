@@ -1,0 +1,21 @@
+[3.934s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_peripheral_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_peripheral_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/install.log --single-version-externally-managed install_data
+[4.926s] running egg_info
+[5.018s] writing ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/PKG-INFO
+[5.031s] writing dependency_links to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/dependency_links.txt
+[5.032s] writing entry points to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/entry_points.txt
+[5.033s] writing requirements to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/requires.txt
+[5.034s] writing top-level names to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/top_level.txt
+[5.329s] reading manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+[5.343s] writing manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+[5.344s] running build
+[5.344s] running build_py
+[5.345s] running install
+[5.373s] running install_lib
+[5.463s] running install_data
+[5.463s] running install_egg_info
+[5.544s] removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+[5.545s] Copying ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info
+[5.562s] running install_scripts
+[6.092s] Installing dingo_lcd_interfacing script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/dingo_peripheral_interfacing
+[6.093s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/install.log'
+[6.257s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_peripheral_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_peripheral_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/install.log --single-version-externally-managed install_data

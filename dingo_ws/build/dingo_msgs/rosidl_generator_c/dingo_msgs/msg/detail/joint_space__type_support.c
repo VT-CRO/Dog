@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "dingo_msgs/msg/detail/joint_space__functions.h"
 #include "dingo_msgs/msg/detail/joint_space__struct.h"
 #include "dingo_msgs/msg/detail/joint_space__type_support.h"
+#include "dingo_msgs/msg/detail/joint_space__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

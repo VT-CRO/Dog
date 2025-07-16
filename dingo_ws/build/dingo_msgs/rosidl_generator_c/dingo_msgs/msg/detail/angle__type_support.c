@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "dingo_msgs/msg/detail/angle__functions.h"
 #include "dingo_msgs/msg/detail/angle__type_support.h"
+#include "dingo_msgs/msg/detail/angle__functions.h"
 #include "dingo_msgs/msg/detail/angle__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 

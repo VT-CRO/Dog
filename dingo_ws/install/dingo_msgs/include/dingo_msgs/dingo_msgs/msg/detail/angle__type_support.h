@@ -1,1 +1,36 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c/dingo_msgs/msg/detail/angle__type_support.h
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from dingo_msgs:msg/Angle.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "dingo_msgs/msg/angle.h"
+
+
+#ifndef DINGO_MSGS__MSG__DETAIL__ANGLE__TYPE_SUPPORT_H_
+#define DINGO_MSGS__MSG__DETAIL__ANGLE__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "dingo_msgs/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_dingo_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  dingo_msgs,
+  msg,
+  Angle
+)(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DINGO_MSGS__MSG__DETAIL__ANGLE__TYPE_SUPPORT_H_

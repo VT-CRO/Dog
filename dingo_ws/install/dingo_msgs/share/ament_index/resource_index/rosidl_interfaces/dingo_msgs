@@ -1,1 +1,8 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dingo_msgs
+msg/Angle.idl
+msg/Angle.msg
+msg/ElectricalMeasurements.idl
+msg/ElectricalMeasurements.msg
+msg/JointSpace.idl
+msg/JointSpace.msg
+msg/TaskSpace.idl
+msg/TaskSpace.msg

@@ -1,1 +1,23 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+# generated from
+# rosidl_cmake/cmake/template/rosidl_cmake_export_typesupport_targets.cmake.in
+
+set(_exported_typesupport_targets
+  "__rosidl_generator_c:dingo_msgs__rosidl_generator_c;__rosidl_typesupport_fastrtps_c:dingo_msgs__rosidl_typesupport_fastrtps_c;__rosidl_typesupport_introspection_c:dingo_msgs__rosidl_typesupport_introspection_c;__rosidl_typesupport_c:dingo_msgs__rosidl_typesupport_c;__rosidl_generator_cpp:dingo_msgs__rosidl_generator_cpp;__rosidl_typesupport_fastrtps_cpp:dingo_msgs__rosidl_typesupport_fastrtps_cpp;__rosidl_typesupport_introspection_cpp:dingo_msgs__rosidl_typesupport_introspection_cpp;__rosidl_typesupport_cpp:dingo_msgs__rosidl_typesupport_cpp;:dingo_msgs__rosidl_generator_py")
+
+# populate dingo_msgs_TARGETS_<suffix>
+if(NOT _exported_typesupport_targets STREQUAL "")
+  # loop over typesupport targets
+  foreach(_tuple ${_exported_typesupport_targets})
+    string(REPLACE ":" ";" _tuple "${_tuple}")
+    list(GET _tuple 0 _suffix)
+    list(GET _tuple 1 _target)
+
+    set(_target "dingo_msgs::${_target}")
+    if(NOT TARGET "${_target}")
+      # the exported target must exist
+      message(WARNING "Package 'dingo_msgs' exports the typesupport target '${_target}' which doesn't exist")
+    else()
+      list(APPEND dingo_msgs_TARGETS${_suffix} "${_target}")
+    endif()
+  endforeach()
+endif()

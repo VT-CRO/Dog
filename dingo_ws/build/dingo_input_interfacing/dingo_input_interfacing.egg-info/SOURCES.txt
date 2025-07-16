@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/PKG-INFO
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/SOURCES.txt
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/dependency_links.txt
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/requires.txt
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/top_level.txt
+../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/zip-safe
+src/dingo_input_interfacing/HardwareConfig.py
+src/dingo_input_interfacing/InputInterface.py
+src/dingo_input_interfacing/Keyboard.py
+src/dingo_input_interfacing/__init__.py

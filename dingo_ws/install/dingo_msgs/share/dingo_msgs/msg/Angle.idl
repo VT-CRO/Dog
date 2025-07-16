@@ -1,1 +1,16 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs/msg/Angle.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_msgs/msg/Angle.msg
+// generated code does not contain a copyright notice
+
+
+module dingo_msgs {
+  module msg {
+    struct Angle {
+      float theta1;
+
+      float theta2;
+
+      float theta3;
+    };
+  };
+};

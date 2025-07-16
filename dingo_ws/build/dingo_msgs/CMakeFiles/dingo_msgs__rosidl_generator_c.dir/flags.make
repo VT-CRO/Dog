@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_GENERATOR_C_BUILDING_DLL_dingo_msgs -DROS_PACKAGE_NAME=\"dingo_msgs\"
 
-C_INCLUDES = -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -isystem /opt/ros2_jazzy/ros2-linux/include/std_msgs -isystem /opt/ros2_jazzy/ros2-linux/include/builtin_interfaces -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_runtime_c -isystem /opt/ros2_jazzy/ros2-linux/include/rcutils -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_interface -isystem /opt/ros2_jazzy/ros2-linux/include/geometry_msgs
+C_INCLUDES = -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/geometry_msgs
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

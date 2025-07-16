@@ -1,0 +1,2 @@
+[console_scripts]
+dingo_lcd_interfacing = dingo_peripheral_interfacing.dingo_lcd_interfacing:main

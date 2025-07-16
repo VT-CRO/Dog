@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs
+CMAKE_SOURCE_DIR = /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+CMAKE_BINARY_DIR = /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
 
 # Utility rule file for ament_cmake_python_build_dingo_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_dingo_msgs_egg:
-	cd /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_python/dingo_msgs && /home/vtcro/ros2-venv/bin/python3 setup.py egg_info
+	cd /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_python/dingo_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_dingo_msgs_egg: CMakeFiles/ament_cmake_python_build_dingo_msgs_egg
 ament_cmake_python_build_dingo_msgs_egg: CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/depend:
-	cd /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_dingo_msgs_egg.dir/depend
 

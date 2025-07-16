@@ -1,0 +1,45 @@
+[4.328s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo/install.log --single-version-externally-managed install_data
+[5.643s] running egg_info
+[5.643s] creating ../../build/dingo/dingo.egg-info
+[5.737s] writing ../../build/dingo/dingo.egg-info/PKG-INFO
+[5.738s] writing dependency_links to ../../build/dingo/dingo.egg-info/dependency_links.txt
+[5.740s] writing entry points to ../../build/dingo/dingo.egg-info/entry_points.txt
+[5.741s] writing requirements to ../../build/dingo/dingo.egg-info/requires.txt
+[5.741s] writing top-level names to ../../build/dingo/dingo.egg-info/top_level.txt
+[5.742s] writing manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+[5.895s] reading manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+[5.896s] writing manifest file '../../build/dingo/dingo.egg-info/SOURCES.txt'
+[5.897s] running build
+[5.897s] running build_py
+[5.898s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build
+[5.898s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib
+[5.898s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+[5.898s] copying src/dingo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+[5.898s] copying src/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+[5.899s] copying src/dingo/status_publisher.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+[5.900s] copying src/dingo/run_robot.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo
+[5.900s] running install
+[5.926s] running install_lib
+[6.003s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+[6.004s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+[6.004s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/dingo_driver.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+[6.014s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/status_publisher.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+[6.014s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build/lib/dingo/run_robot.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo
+[6.014s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/__init__.py to __init__.cpython-312.pyc
+[6.015s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/dingo_driver.py to dingo_driver.cpython-312.pyc
+[6.018s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/status_publisher.py to status_publisher.cpython-312.pyc
+[6.024s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo/run_robot.py to run_robot.cpython-312.pyc
+[6.036s] running install_data
+[6.036s] copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo
+[6.036s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+[6.036s] copying launch/dingo.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/dingo/launch
+[6.037s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index
+[6.037s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index
+[6.037s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages
+[6.037s] copying resource/dingo -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo/share/ament_index/resource_index/packages
+[6.037s] running install_egg_info
+[6.211s] Copying ../../build/dingo/dingo.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages/dingo-0.0.0-py3.12.egg-info
+[6.409s] running install_scripts
+[7.183s] Installing dingo_driver script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/dingo
+[7.183s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo/install.log'
+[7.457s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo/install.log --single-version-externally-managed install_data

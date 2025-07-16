@@ -1,0 +1,109 @@
+[4.452s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_description build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/install.log --single-version-externally-managed install_data
+[5.511s] running egg_info
+[5.516s] creating ../../build/dingo_description/dingo_description.egg-info
+[5.608s] writing ../../build/dingo_description/dingo_description.egg-info/PKG-INFO
+[5.609s] writing dependency_links to ../../build/dingo_description/dingo_description.egg-info/dependency_links.txt
+[5.621s] writing requirements to ../../build/dingo_description/dingo_description.egg-info/requires.txt
+[5.622s] writing top-level names to ../../build/dingo_description/dingo_description.egg-info/top_level.txt
+[5.624s] writing manifest file '../../build/dingo_description/dingo_description.egg-info/SOURCES.txt'
+[5.844s] reading manifest file '../../build/dingo_description/dingo_description.egg-info/SOURCES.txt'
+[5.848s] writing manifest file '../../build/dingo_description/dingo_description.egg-info/SOURCES.txt'
+[5.850s] running build
+[5.850s] running build_py
+[5.851s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build
+[5.851s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build/lib
+[5.852s] creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build/lib/dingo_description
+[5.852s] copying dingo_description/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build/lib/dingo_description
+[5.852s] running install
+[5.869s] running install_lib
+[5.943s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages/dingo_description
+[5.945s] copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build/lib/dingo_description/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages/dingo_description
+[5.955s] byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages/dingo_description/__init__.py to __init__.cpython-312.pyc
+[5.955s] running install_data
+[5.960s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index
+[5.964s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index
+[5.964s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index/packages
+[5.964s] copying resource/dingo_description -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/ament_index/resource_index/packages
+[5.964s] copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description
+[5.965s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+[5.965s] copying launch/gazebo.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+[5.966s] copying launch/display.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/launch
+[5.966s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.966s] copying urdf/rear_left_rl_leg.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.966s] copying urdf/dingo.urdf.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.966s] copying urdf/materials.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.971s] copying urdf/inertial_macros.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.971s] copying urdf/tmp_dingo.core.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.971s] copying urdf/ros2_control.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.971s] copying urdf/gazebo_control.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.971s] copying urdf/front_right_fr_leg.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.972s] copying urdf/dingo.core.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.972s] copying urdf/leg1.trans -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.973s] copying urdf/front_left_fl_leg.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.975s] copying urdf/leg1.gazebo -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.975s] copying urdf/rear_right_rr_leg.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.975s] copying urdf/imu.xacro -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/urdf
+[5.976s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.976s] copying meshes/R_link1_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.976s] copying meshes/RL1_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.976s] copying meshes/FR_link2.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.978s] copying meshes/FL_link1.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.979s] copying meshes/FL_link1.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.984s] copying meshes/R3_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.986s] copying meshes/RR_link3.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.990s] copying meshes/body_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[5.990s] copying meshes/L3_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.013s] copying meshes/R2_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.025s] copying meshes/link4.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.034s] copying meshes/FL1_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.035s] copying meshes/RR1_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.070s] copying meshes/FR_link3.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.070s] copying meshes/L3_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.072s] copying meshes/RR_link4.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.073s] copying meshes/RR_link2.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.082s] copying meshes/L_link3.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.082s] copying meshes/base_link.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.093s] copying meshes/RL_link1.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.094s] copying meshes/L2_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.113s] copying meshes/L_link2.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.116s] copying meshes/FL_link3.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.122s] copying meshes/RL1_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.153s] copying meshes/body_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.613s] copying meshes/RR_link1.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.621s] copying meshes/main.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.621s] copying meshes/base_link.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.641s] copying meshes/RL_link4.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.655s] copying meshes/FL1_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.681s] copying meshes/L_link3_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.681s] copying meshes/FR_link1.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.687s] copying meshes/R_link3.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.695s] copying meshes/L_link1_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.695s] copying meshes/FL_link4.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.695s] copying meshes/base_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.698s] copying meshes/thread.jpg -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.700s] copying meshes/FL_link2.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.703s] copying meshes/L2_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.703s] copying meshes/FR_link4.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.707s] copying meshes/RL_link1.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.707s] copying meshes/RR_link1.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.708s] copying meshes/L_link2_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.710s] copying meshes/FR_link1.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.713s] copying meshes/RR1_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.714s] copying meshes/R3_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.723s] copying meshes/R2_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.725s] copying meshes/FR1_obj.obj -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.736s] copying meshes/R_link2.dae -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.737s] copying meshes/R_link2_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.739s] copying meshes/link4_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.742s] copying meshes/RL_link3.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.742s] copying meshes/RL_link2.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.744s] copying meshes/R_link3_collision.STL -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.745s] copying meshes/FR1_obj.mtl -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/meshes
+[6.746s] creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config
+[6.746s] copying config/initial_positions.yaml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config
+[6.746s] copying config/display.rviz -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/share/dingo_description/config
+[6.749s] running install_egg_info
+[6.881s] Copying ../../build/dingo_description/dingo_description.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages/dingo_description-0.0.0-py3.12.egg-info
+[6.895s] running install_scripts
+[7.900s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/install.log'
+[8.472s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_description build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_description/install.log --single-version-externally-managed install_data

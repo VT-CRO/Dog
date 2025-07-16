@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs
+CMAKE_SOURCE_DIR = /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+CMAKE_BINARY_DIR = /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

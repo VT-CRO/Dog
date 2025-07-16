@@ -1,1 +1,164 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_type_description/dingo_msgs/msg/JointSpace.json
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "dingo_msgs/msg/JointSpace",
+      "fields": [
+        {
+          "name": "header",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "std_msgs/msg/Header"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "fl_foot",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "dingo_msgs/msg/Angle"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "fr_foot",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "dingo_msgs/msg/Angle"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "rl_foot",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "dingo_msgs/msg/Angle"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "rr_foot",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "dingo_msgs/msg/Angle"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "dingo_msgs/msg/Angle",
+        "fields": [
+          {
+            "name": "theta1",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "theta2",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "theta3",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "std_msgs/msg/Header",
+        "fields": [
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "frame_id",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "dingo_msgs/msg/JointSpace",
+      "hash_string": "RIHS01_afe4bd005db4362923966b46c89eadc3237a6e1ddbb67823d003878994b6ef03"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "dingo_msgs/msg/Angle",
+      "hash_string": "RIHS01_cf0fd892f5be31dcf48e0b1f7ca58fd101482d90e226cf644f69bba6b8803484"
+    },
+    {
+      "type_name": "std_msgs/msg/Header",
+      "hash_string": "RIHS01_f49fb3ae2cf070f793645ff749683ac6b06203e41c891e17701b1cb597ce6a01"
+    }
+  ]
+}

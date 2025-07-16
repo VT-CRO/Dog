@@ -44,7 +44,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_link.dae" />
+        <mesh filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_link.dae" />
       </geometry>
       <material name="">
         <color rgba="0.79216 0.81961 0.93333 1" />
@@ -55,7 +55,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_collision.STL" />
+        <mesh filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/base_collision.STL" />
       </geometry>
     </collision>
   </link>

@@ -150,7 +150,7 @@
     <gazebo>
         <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
             <!-- <ros2_control_parameters>package://dingo_gazebo/config/controllers.yaml</ros2_control_parameters> -->
-            <parameters>/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_gazebo/config/controllers.yaml</parameters>
+            <parameters>/home/robogames/Desktop/Dog/dingo_ws/src/dingo_gazebo/config/controllers.yaml</parameters>
             <!-- <parameters>$(find mini_car_bot)/config/gaz_ros2_ctl_use_sim.yaml</parameters> -->
         </plugin>
     </gazebo>

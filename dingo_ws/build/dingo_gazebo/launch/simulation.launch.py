@@ -1,1 +1,0 @@
-/home/vtcro/Desktop/Dog/dingo_ws/src/dingo_gazebo/launch/simulation.launch.py

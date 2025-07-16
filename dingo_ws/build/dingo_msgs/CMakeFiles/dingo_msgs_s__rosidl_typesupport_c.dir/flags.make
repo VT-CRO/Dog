@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROS_PACKAGE_NAME=\"dingo_msgs\" -Ddingo_msgs_s__rosidl_typesupport_c_EXPORTS
 
-C_INCLUDES = -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_py -I/opt/ros2_jazzy/ros2-linux/include/rmw -isystem /usr/include/python3.12 -isystem /opt/ros2_jazzy/ros2-linux/include/std_msgs -isystem /opt/ros2_jazzy/ros2-linux/include/builtin_interfaces -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_runtime_c -isystem /opt/ros2_jazzy/ros2-linux/include/rcutils -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_interface -isystem /opt/ros2_jazzy/ros2-linux/include/geometry_msgs -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_c -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_dynamic_typesupport
+C_INCLUDES = -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_py -I/opt/ros/jazzy/include/rmw -isystem /usr/include/python3.12 -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport
 
 C_FLAGS = -fPIC -Wall -Wextra
 

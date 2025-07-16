@@ -1,1 +1,24 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_adapter/dingo_msgs/msg/TaskSpace.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dingo_msgs/msg/TaskSpace.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dingo_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "TaskSpace.msg")
+    struct TaskSpace {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Point fl_foot;
+
+      geometry_msgs::msg::Point fr_foot;
+
+      geometry_msgs::msg::Point rl_foot;
+
+      geometry_msgs::msg::Point rr_foot;
+    };
+  };
+};

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/dingo_gazebo/dingo_gazebo.egg-info
+writing ../../build/dingo_gazebo/dingo_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo_gazebo/dingo_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/dingo_gazebo/dingo_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/dingo_gazebo/dingo_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/dingo_gazebo/dingo_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/dingo_gazebo/dingo_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo_gazebo/dingo_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build/lib
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build/lib/dingo_gazebo
+copying src/dingo_gazebo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build/lib/dingo_gazebo
+running install
+running install_lib
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build/lib/dingo_gazebo/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/launch
+copying launch/simulation.launch.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/launch
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+copying worlds/office.world -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+copying worlds/empty.world -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+copying worlds/normal.world -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/worlds
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+copying config/controllers.yaml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+copying config/gz_bridge.yaml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/dingo_gazebo/config
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index/packages
+copying resource/dingo_gazebo -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/dingo_gazebo/dingo_gazebo.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/install.log'

@@ -1,0 +1,18 @@
+[3.844s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_input_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_input_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/install.log --single-version-externally-managed
+[5.073s] running egg_info
+[5.155s] writing ../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/PKG-INFO
+[5.156s] writing dependency_links to ../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/dependency_links.txt
+[5.159s] writing requirements to ../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/requires.txt
+[5.160s] writing top-level names to ../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/top_level.txt
+[5.279s] reading manifest file '../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/SOURCES.txt'
+[5.296s] writing manifest file '../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info/SOURCES.txt'
+[5.300s] running build
+[5.300s] running build_py
+[5.300s] running install
+[5.315s] running install_lib
+[5.384s] running install_egg_info
+[5.456s] removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+[5.456s] Copying ../../build/dingo_input_interfacing/dingo_input_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages/dingo_input_interfacing-0.0.0-py3.12.egg-info
+[5.506s] running install_scripts
+[6.153s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/install.log'
+[6.445s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_input_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_input_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_input_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_input_interfacing/install.log --single-version-externally-managed

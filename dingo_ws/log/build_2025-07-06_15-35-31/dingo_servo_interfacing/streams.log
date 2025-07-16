@@ -1,0 +1,18 @@
+[5.244s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_servo_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log --single-version-externally-managed
+[6.439s] running egg_info
+[6.530s] writing ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/PKG-INFO
+[6.539s] writing dependency_links to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/dependency_links.txt
+[6.541s] writing requirements to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/requires.txt
+[6.541s] writing top-level names to ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/top_level.txt
+[6.779s] reading manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+[6.781s] writing manifest file '../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info/SOURCES.txt'
+[6.781s] running build
+[6.782s] running build_py
+[6.785s] running install
+[6.803s] running install_lib
+[6.881s] running install_egg_info
+[7.029s] removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+[7.033s] Copying ../../build/dingo_servo_interfacing/dingo_servo_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages/dingo_servo_interfacing-0.0.0-py3.12.egg-info
+[7.076s] running install_scripts
+[7.629s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log'
+[7.846s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_servo_interfacing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_servo_interfacing/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_servo_interfacing build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_servo_interfacing/install.log --single-version-externally-managed

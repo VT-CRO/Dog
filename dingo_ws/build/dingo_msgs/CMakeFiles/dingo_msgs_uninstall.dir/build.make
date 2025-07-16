@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs
+CMAKE_SOURCE_DIR = /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+CMAKE_BINARY_DIR = /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
 
 # Utility rule file for dingo_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dingo_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/dingo_msgs_uninstall.dir/progress.make
 
 CMakeFiles/dingo_msgs_uninstall:
-	/usr/bin/cmake -P /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dingo_msgs_uninstall: CMakeFiles/dingo_msgs_uninstall
 dingo_msgs_uninstall: CMakeFiles/dingo_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dingo_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/dingo_msgs_uninstall.dir/clean
 
 CMakeFiles/dingo_msgs_uninstall.dir/depend:
-	cd /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/dingo_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/dingo_msgs_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dingo_msgs_uninstall.dir/depend
 

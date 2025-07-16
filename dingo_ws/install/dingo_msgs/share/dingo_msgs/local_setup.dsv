@@ -1,1 +1,4 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/ament_cmake_environment_hooks/local_setup.dsv
+source;share/dingo_msgs/environment/ament_prefix_path.sh
+source;share/dingo_msgs/environment/library_path.sh
+source;share/dingo_msgs/environment/path.sh
+source;share/dingo_msgs/environment/pythonpath.sh

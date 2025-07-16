@@ -1,0 +1,19 @@
+[6.714s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_gazebo build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/install.log --single-version-externally-managed install_data
+[8.447s] running egg_info
+[8.571s] writing ../../build/dingo_gazebo/dingo_gazebo.egg-info/PKG-INFO
+[8.591s] writing dependency_links to ../../build/dingo_gazebo/dingo_gazebo.egg-info/dependency_links.txt
+[8.595s] writing requirements to ../../build/dingo_gazebo/dingo_gazebo.egg-info/requires.txt
+[8.617s] writing top-level names to ../../build/dingo_gazebo/dingo_gazebo.egg-info/top_level.txt
+[9.037s] reading manifest file '../../build/dingo_gazebo/dingo_gazebo.egg-info/SOURCES.txt'
+[9.111s] writing manifest file '../../build/dingo_gazebo/dingo_gazebo.egg-info/SOURCES.txt'
+[9.111s] running build
+[9.112s] running build_py
+[9.112s] running install
+[9.135s] running install_lib
+[9.220s] running install_data
+[9.220s] running install_egg_info
+[9.319s] removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[9.323s] Copying ../../build/dingo_gazebo/dingo_gazebo.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages/dingo_gazebo-0.0.0-py3.12.egg-info
+[9.465s] running install_scripts
+[10.033s] writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/install.log'
+[11.955s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/src/dingo_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2_python_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robogames/Desktop/Dog/dingo_ws/install/dingo_gazebo/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros2_python_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dingo_gazebo build --build-base /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/build install --record /home/robogames/Desktop/Dog/dingo_ws/build/dingo_gazebo/install.log --single-version-externally-managed install_data

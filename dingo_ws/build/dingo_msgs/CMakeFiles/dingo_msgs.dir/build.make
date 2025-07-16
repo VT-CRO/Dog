@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs
+CMAKE_SOURCE_DIR = /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs
+CMAKE_BINARY_DIR = /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
 
 # Utility rule file for dingo_msgs.
 
@@ -66,74 +66,74 @@ include CMakeFiles/dingo_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/dingo_msgs.dir/progress.make
 
-CMakeFiles/dingo_msgs: /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/ElectricalMeasurements.msg
-CMakeFiles/dingo_msgs: /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/Angle.msg
-CMakeFiles/dingo_msgs: /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/JointSpace.msg
-CMakeFiles/dingo_msgs: /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/TaskSpace.msg
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Bool.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Byte.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/ByteMultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Char.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/ColorRGBA.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Empty.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Float32.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Float32MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Float64.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Float64MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Header.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int16.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int16MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int32.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int32MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int64.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int64MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int8.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/Int8MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/MultiArrayDimension.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/MultiArrayLayout.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/String.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt16.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt16MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt32.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt32MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt64.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt64MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt8.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/std_msgs/msg/UInt8MultiArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Accel.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/AccelStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/AccelWithCovariance.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Inertia.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/InertiaStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Point.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Point32.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PointStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Polygon.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PolygonInstance.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PolygonInstanceStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PolygonStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Pose.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Pose2D.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PoseArray.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PoseStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PoseWithCovariance.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Quaternion.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/QuaternionStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Transform.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/TransformStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Twist.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/TwistStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/TwistWithCovariance.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Vector3.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Vector3Stamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/VelocityStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/Wrench.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/geometry_msgs/msg/WrenchStamped.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/builtin_interfaces/msg/Duration.idl
-CMakeFiles/dingo_msgs: /opt/ros2_jazzy/ros2-linux/share/builtin_interfaces/msg/Time.idl
+CMakeFiles/dingo_msgs: /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/ElectricalMeasurements.msg
+CMakeFiles/dingo_msgs: /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/Angle.msg
+CMakeFiles/dingo_msgs: /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/JointSpace.msg
+CMakeFiles/dingo_msgs: /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs/msg/TaskSpace.msg
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Char.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/ColorRGBA.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Empty.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Float32.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Float32MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Float64.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Float64MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Header.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int16.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int16MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int32.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int32MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int64.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int64MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int8.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/Int8MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/MultiArrayDimension.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/MultiArrayLayout.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/String.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt16.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt16MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt32.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt32MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt64.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Accel.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/AccelStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovariance.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Inertia.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/InertiaStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Point.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Point32.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PointStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Polygon.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstance.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonInstanceStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PolygonStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Pose.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Pose2D.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PoseArray.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PoseStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovariance.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Quaternion.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/QuaternionStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Transform.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/TransformStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Twist.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/TwistStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovariance.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Vector3Stamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/dingo_msgs: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 
 dingo_msgs: CMakeFiles/dingo_msgs
 dingo_msgs: CMakeFiles/dingo_msgs.dir/build.make
@@ -148,6 +148,6 @@ CMakeFiles/dingo_msgs.dir/clean:
 .PHONY : CMakeFiles/dingo_msgs.dir/clean
 
 CMakeFiles/dingo_msgs.dir/depend:
-	cd /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/src/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs /home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/dingo_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/CMakeFiles/dingo_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dingo_msgs.dir/depend
 

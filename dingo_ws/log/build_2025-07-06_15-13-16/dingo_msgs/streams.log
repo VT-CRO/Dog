@@ -1,0 +1,333 @@
+[0.060s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs -DCMAKE_INSTALL_PREFIX=/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs
+[0.839s] -- The C compiler identification is GNU 13.3.0
+[2.145s] -- The CXX compiler identification is GNU 13.3.0
+[2.265s] -- Detecting C compiler ABI info
+[2.713s] -- Detecting C compiler ABI info - done
+[2.743s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.751s] -- Detecting C compile features
+[2.751s] -- Detecting C compile features - done
+[2.912s] -- Detecting CXX compiler ABI info
+[3.417s] -- Detecting CXX compiler ABI info - done
+[3.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.444s] -- Detecting CXX compile features
+[3.445s] -- Detecting CXX compile features - done
+[3.506s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.045s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.945s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.954s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[5.047s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.144s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[7.576s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.245s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[10.525s] -- Found PythonExtra: /usr/bin/python3  
+[11.653s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[11.782s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.849s] -- Added test 'lint_cmake' to check CMake code style
+[11.853s] -- Added test 'xmllint' to check XML markup files
+[11.865s] -- Configuring done (11.7s)
+[11.974s] -- Generating done (0.1s)
+[12.004s] -- Build files have been written to: /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
+[12.045s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs -DCMAKE_INSTALL_PREFIX=/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs
+[12.046s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j4 -l4
+[12.185s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.220s] [  1%] Built target ament_cmake_python_copy_dingo_msgs
+[12.850s] [  1%] Built target dingo_msgs__rosidl_generator_type_description
+[12.878s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.931s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.968s] running egg_info
+[12.974s] creating dingo_msgs.egg-info
+[13.052s] writing dingo_msgs.egg-info/PKG-INFO
+[13.053s] writing dependency_links to dingo_msgs.egg-info/dependency_links.txt
+[13.053s] writing top-level names to dingo_msgs.egg-info/top_level.txt
+[13.054s] writing manifest file 'dingo_msgs.egg-info/SOURCES.txt'
+[13.275s] reading manifest file 'dingo_msgs.egg-info/SOURCES.txt'
+[13.276s] writing manifest file 'dingo_msgs.egg-info/SOURCES.txt'
+[13.437s] [  4%] Built target ament_cmake_python_build_dingo_msgs_egg
+[14.520s] [  4%] Built target dingo_msgs__cpp
+[14.683s] [  6%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/electrical_measurements__description.c.o[0m
+[14.688s] [ 10%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/angle__description.c.o[0m
+[14.689s] [ 10%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/electrical_measurements__type_support.c.o[0m
+[14.691s] [ 10%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/electrical_measurements__functions.c.o[0m
+[14.859s] [ 12%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/angle__functions.c.o[0m
+[14.859s] [ 14%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/angle__type_support.c.o[0m
+[14.869s] [ 15%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/joint_space__description.c.o[0m
+[14.909s] [ 17%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/joint_space__functions.c.o[0m
+[14.985s] [ 18%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/joint_space__type_support.c.o[0m
+[15.067s] [ 20%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/task_space__description.c.o[0m
+[15.111s] [ 21%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/task_space__type_support.c.o[0m
+[15.114s] [ 23%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_c.dir/rosidl_generator_c/dingo_msgs/msg/detail/task_space__functions.c.o[0m
+[15.310s] [ 25%] [32m[1mLinking C shared library libdingo_msgs__rosidl_generator_c.so[0m
+[15.457s] [ 25%] Built target dingo_msgs__rosidl_generator_c
+[15.487s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.488s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.489s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.492s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.547s] [ 32%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dingo_msgs/msg/electrical_measurements__type_support.cpp.o[0m
+[16.707s] [ 34%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_msgs/msg/electrical_measurements__type_support.cpp.o[0m
+[16.885s] [ 37%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dingo_msgs/msg/angle__type_support.cpp.o[0m
+[16.885s] [ 37%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/electrical_measurements__type_support.c.o[0m
+[17.025s] [ 39%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dingo_msgs/msg/joint_space__type_support.cpp.o[0m
+[17.057s] [ 40%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/angle__type_support.c.o[0m
+[17.068s] [ 42%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dingo_msgs/msg/detail/electrical_measurements__type_support_c.cpp.o[0m
+[17.151s] [ 43%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dingo_msgs/msg/task_space__type_support.cpp.o[0m
+[17.199s] [ 45%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/joint_space__type_support.c.o[0m
+[17.290s] [ 46%] [32m[1mLinking CXX shared library libdingo_msgs__rosidl_typesupport_c.so[0m
+[17.338s] [ 48%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dingo_msgs/msg/detail/task_space__type_support.c.o[0m
+[17.390s] [ 48%] Built target dingo_msgs__rosidl_typesupport_c
+[17.419s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.472s] [ 51%] [32m[1mLinking C shared library libdingo_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.603s] [ 51%] Built target dingo_msgs__rosidl_typesupport_introspection_c
+[17.635s] [ 53%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dingo_msgs/msg/detail/angle__type_support_c.cpp.o[0m
+[18.538s] [ 54%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_msgs/msg/angle__type_support.cpp.o[0m
+[19.253s] [ 56%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_msgs/msg/detail/dds_fastrtps/electrical_measurements__type_support.cpp.o[0m
+[19.374s] [ 57%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.443s] [ 59%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dingo_msgs/msg/detail/joint_space__type_support_c.cpp.o[0m
+[19.574s] [ 60%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_msgs/msg/joint_space__type_support.cpp.o[0m
+[20.762s] [ 62%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_msgs/msg/detail/electrical_measurements__type_support.cpp.o[0m
+[21.067s] [ 64%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dingo_msgs/msg/detail/task_space__type_support_c.cpp.o[0m
+[21.146s] [ 65%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dingo_msgs/msg/task_space__type_support.cpp.o[0m
+[21.263s] [ 67%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_msgs/msg/detail/dds_fastrtps/angle__type_support.cpp.o[0m
+[22.033s] [ 68%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_msgs/msg/detail/angle__type_support.cpp.o[0m
+[22.315s] [ 70%] [32m[1mLinking CXX shared library libdingo_msgs__rosidl_typesupport_cpp.so[0m
+[22.583s] [ 70%] Built target dingo_msgs__rosidl_typesupport_cpp
+[22.632s] [ 71%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_msgs/msg/detail/dds_fastrtps/joint_space__type_support.cpp.o[0m
+[22.782s] [ 73%] [32m[1mLinking CXX shared library libdingo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.019s] [ 73%] Built target dingo_msgs__rosidl_typesupport_fastrtps_c
+[23.056s] [ 75%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_msgs/msg/detail/joint_space__type_support.cpp.o[0m
+[23.344s] [ 76%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dingo_msgs/msg/detail/dds_fastrtps/task_space__type_support.cpp.o[0m
+[23.412s] [ 78%] [32mBuilding CXX object CMakeFiles/dingo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dingo_msgs/msg/detail/task_space__type_support.cpp.o[0m
+[24.650s] [ 79%] [32m[1mLinking CXX shared library libdingo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.863s] [ 81%] [32m[1mLinking CXX shared library libdingo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.890s] [ 81%] Built target dingo_msgs__rosidl_typesupport_introspection_cpp
+[25.000s] [ 81%] Built target dingo_msgs__rosidl_typesupport_fastrtps_cpp
+[25.072s] [ 81%] Built target dingo_msgs
+[25.130s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.179s] [ 82%] Built target dingo_msgs__py
+[26.240s] [ 85%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_py.dir/rosidl_generator_py/dingo_msgs/msg/_electrical_measurements_s.c.o[0m
+[26.241s] [ 85%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_py.dir/rosidl_generator_py/dingo_msgs/msg/_angle_s.c.o[0m
+[26.730s] [ 87%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_py.dir/rosidl_generator_py/dingo_msgs/msg/_task_space_s.c.o[0m
+[26.731s] [ 89%] [32mBuilding C object CMakeFiles/dingo_msgs__rosidl_generator_py.dir/rosidl_generator_py/dingo_msgs/msg/_joint_space_s.c.o[0m
+[27.078s] [ 90%] [32m[1mLinking C shared library libdingo_msgs__rosidl_generator_py.so[0m
+[27.196s] [ 90%] Built target dingo_msgs__rosidl_generator_py
+[27.256s] [ 92%] [32mBuilding C object CMakeFiles/dingo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.263s] [ 93%] [32mBuilding C object CMakeFiles/dingo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.514s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[27.521s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[27.604s] [ 96%] Built target dingo_msgs_s__rosidl_typesupport_introspection_c
+[27.633s] [ 96%] Built target dingo_msgs_s__rosidl_typesupport_fastrtps_c
+[27.686s] [ 98%] [32mBuilding C object CMakeFiles/dingo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[27.945s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so[0m
+[28.021s] [100%] Built target dingo_msgs_s__rosidl_typesupport_c
+[28.100s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs -- -j4 -l4
+[28.126s] Invoking command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs
+[28.151s] -- Install configuration: ""
+[28.151s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/rosidl_interfaces/dingo_msgs
+[28.152s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.json
+[28.152s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.json
+[28.152s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.json
+[28.152s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.json
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/electrical_measurements.h
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/joint_space.h
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/angle.h
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__struct.h
+[28.153s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.h
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.h
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__functions.c
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.c
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__functions.h
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.c
+[28.154s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__functions.c
+[28.155s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__struct.h
+[28.155s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__description.c
+[28.155s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.c
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__description.c
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__functions.h
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__functions.h
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__description.c
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.h
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__functions.c
+[28.156s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.c
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__functions.c
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__description.c
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.h
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__struct.h
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__struct.h
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__functions.h
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_generator_c__visibility_control.h
+[28.157s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/task_space.h
+[28.158s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/library_path.sh
+[28.158s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/library_path.dsv
+[28.158s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_c.so
+[28.159s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_c.so" to ""
+[28.159s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.159s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.159s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[28.159s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.159s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_fastrtps_c.h
+[28.159s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_fastrtps_c.h
+[28.159s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_c.h
+[28.160s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_c.h
+[28.160s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_c.so
+[28.160s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[28.160s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.161s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[28.161s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.c
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.c
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_introspection_c.h
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.c
+[28.161s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_introspection_c.h
+[28.162s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_introspection_c.h
+[28.162s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.c
+[28.162s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_introspection_c.h
+[28.162s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_c.so
+[28.163s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[28.163s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_c.so
+[28.163s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_c.so" to ""
+[28.163s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.164s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/task_space.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[28.164s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__builder.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__traits.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__struct.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__builder.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__traits.hpp
+[28.164s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__struct.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__traits.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__struct.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__builder.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__builder.hpp
+[28.165s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__struct.hpp
+[28.166s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.hpp
+[28.166s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.hpp
+[28.166s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__traits.hpp
+[28.166s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/angle.hpp
+[28.167s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/joint_space.hpp
+[28.167s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/electrical_measurements.hpp
+[28.167s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.168s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.168s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[28.168s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.168s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_fastrtps_cpp.hpp
+[28.168s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_fastrtps_cpp.hpp
+[28.168s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/dds_fastrtps
+[28.168s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_fastrtps_cpp.hpp
+[28.169s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_fastrtps_cpp.hpp
+[28.169s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[28.169s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[28.169s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs
+[28.169s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg
+[28.169s] -- Up-to-date: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail
+[28.169s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__rosidl_typesupport_introspection_cpp.hpp
+[28.170s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__rosidl_typesupport_introspection_cpp.hpp
+[28.170s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/task_space__type_support.cpp
+[28.170s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__rosidl_typesupport_introspection_cpp.hpp
+[28.171s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/angle__type_support.cpp
+[28.171s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/joint_space__type_support.cpp
+[28.171s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__rosidl_typesupport_introspection_cpp.hpp
+[28.172s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/include/dingo_msgs/dingo_msgs/msg/detail/electrical_measurements__type_support.cpp
+[28.172s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_cpp.so
+[28.173s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[28.173s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_cpp.so
+[28.174s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_typesupport_cpp.so" to ""
+[28.175s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/pythonpath.sh
+[28.175s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/pythonpath.dsv
+[28.176s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info
+[28.176s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[28.209s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[28.210s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[28.210s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[28.210s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/__init__.py
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/__init__.py
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_angle_s.c
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_electrical_measurements_s.c
+[28.211s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_task_space_s.c
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_joint_space_s.c
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_electrical_measurements.py
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_angle.py
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_task_space.py
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_joint_space.py
+[28.212s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[28.213s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[28.213s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so
+[28.213s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/_dingo_msgs_s.ep.rosidl_typesupport_c.c
+[28.213s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so
+[28.214s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.305s] Listing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs'...
+[28.306s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/__init__.py'...
+[28.306s] Listing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg'...
+[28.306s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/__init__.py'...
+[28.307s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_angle.py'...
+[28.307s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_electrical_measurements.py'...
+[28.307s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_joint_space.py'...
+[28.307s] Compiling '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/msg/_task_space.py'...
+[28.320s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[28.320s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[28.321s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so
+[28.321s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[28.322s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so
+[28.323s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/python3.12/site-packages/dingo_msgs/dingo_msgs_s__rosidl_typesupport_c.so" to ""
+[28.323s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_py.so
+[28.324s] -- Set non-toolchain portion of runtime path of "/home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/lib/libdingo_msgs__rosidl_generator_py.so" to ""
+[28.324s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.idl
+[28.324s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.idl
+[28.324s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.idl
+[28.325s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.idl
+[28.325s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/ElectricalMeasurements.msg
+[28.325s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/Angle.msg
+[28.326s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/JointSpace.msg
+[28.326s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/msg/TaskSpace.msg
+[28.326s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/package_run_dependencies/dingo_msgs
+[28.327s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/parent_prefix_path/dingo_msgs
+[28.327s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/ament_prefix_path.sh
+[28.327s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/ament_prefix_path.dsv
+[28.341s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/path.sh
+[28.342s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/environment/path.dsv
+[28.354s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.bash
+[28.354s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.sh
+[28.355s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.zsh
+[28.355s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/local_setup.dsv
+[28.358s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.dsv
+[28.360s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/ament_index/resource_index/packages/dingo_msgs
+[28.362s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cExport.cmake
+[28.362s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cExport-noconfig.cmake
+[28.362s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[28.363s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[28.363s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[28.363s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[28.363s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cExport.cmake
+[28.365s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[28.365s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_cppExport.cmake
+[28.366s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[28.366s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[28.368s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[28.368s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[28.368s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cppExport.cmake
+[28.369s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[28.369s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_pyExport.cmake
+[28.369s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/export_dingo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[28.370s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake-extras.cmake
+[28.371s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.371s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.371s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[28.372s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[28.372s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[28.372s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[28.372s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgsConfig.cmake
+[28.372s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/cmake/dingo_msgsConfig-version.cmake
+[28.373s] -- Installing: /home/robogames/Desktop/Dog/dingo_ws/install/dingo_msgs/share/dingo_msgs/package.xml
+[28.377s] Invoked command in '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs

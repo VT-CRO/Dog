@@ -15,7 +15,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/FR_link1.dae" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/FR_link1.dae" />
         </geometry>
         <material
             name="">
@@ -29,7 +29,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link1_collision.STL" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link1_collision.STL" />
         </geometry>
         </collision>
     </link>
@@ -48,7 +48,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link2.dae" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link2.dae" />
         </geometry>
         <material
             name="">
@@ -62,7 +62,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link2_collision.STL" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link2_collision.STL" />
         </geometry>
         </collision>
     </link>
@@ -81,7 +81,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link3.dae" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link3.dae" />
         </geometry>
         <material
             name="">
@@ -95,7 +95,7 @@
             rpy="0 0 0" />
         <geometry>
             <mesh
-            filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link3_collision.STL" />
+            filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/R_link3_collision.STL" />
         </geometry>
         </collision>
     </link>
@@ -114,7 +114,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4.dae" />
+                filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4.dae" />
             </geometry>
             <material
                 name="">
@@ -128,7 +128,7 @@
                 rpy="0 0 0" />
             <geometry>
                 <mesh
-                filename="file:///home/vtcro/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4_collision.STL" />
+                filename="file:///home/robogames/Desktop/Dog/dingo_ws/src/dingo_description/meshes/link4_collision.STL" />
             </geometry>
         </collision> -->
         <collision>

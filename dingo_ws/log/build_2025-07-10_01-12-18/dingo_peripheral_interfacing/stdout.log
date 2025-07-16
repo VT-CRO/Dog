@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/dependency_links.txt
+writing entry points to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/entry_points.txt
+writing requirements to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/requires.txt
+writing top-level names to ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/top_level.txt
+reading manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/dingo_peripheral_interfacing/dingo_peripheral_interfacing.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/python3.12/site-packages/dingo_peripheral_interfacing-0.0.0-py3.12.egg-info
+running install_scripts
+Installing dingo_lcd_interfacing script to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_peripheral_interfacing/lib/dingo_peripheral_interfacing
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_peripheral_interfacing/install.log'

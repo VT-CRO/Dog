@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_CPP_BUILDING_DLL -DROS_PACKAGE_NAME=\"dingo_msgs\"
 
-CXX_INCLUDES = -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_introspection_cpp -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -I/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_cpp -isystem /opt/ros2_jazzy/ros2-linux/include/std_msgs -isystem /opt/ros2_jazzy/ros2-linux/include/builtin_interfaces -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_runtime_c -isystem /opt/ros2_jazzy/ros2-linux/include/rcutils -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_interface -isystem /opt/ros2_jazzy/ros2-linux/include/geometry_msgs -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_runtime_cpp -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros2_jazzy/ros2-linux/include/rosidl_typesupport_introspection_c
+CXX_INCLUDES = -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_typesupport_introspection_cpp -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_c -I/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/rosidl_generator_cpp -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
 
 CXX_FLAGS = -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic
 

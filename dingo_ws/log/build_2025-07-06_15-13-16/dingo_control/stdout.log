@@ -1,0 +1,58 @@
+running egg_info
+creating ../../build/dingo_control/dingo_control.egg-info
+writing ../../build/dingo_control/dingo_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/dingo_control/dingo_control.egg-info/dependency_links.txt
+writing requirements to ../../build/dingo_control/dingo_control.egg-info/requires.txt
+writing top-level names to ../../build/dingo_control/dingo_control.egg-info/top_level.txt
+writing manifest file '../../build/dingo_control/dingo_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/dingo_control/dingo_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/dingo_control/dingo_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib
+creating /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/Kinematics.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/util.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/Config.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/SwingLegController.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/Controller.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/Gaits.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/StanceController.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/State.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+copying src/dingo_control/Command.py -> /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control
+running install
+running install_lib
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/Kinematics.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/__init__.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/util.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/Config.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/SwingLegController.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/Controller.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/Gaits.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/StanceController.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/State.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+copying /home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/build/lib/dingo_control/Command.py -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Kinematics.py to Kinematics.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/util.py to util.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Config.py to Config.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/SwingLegController.py to SwingLegController.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Controller.py to Controller.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Gaits.py to Gaits.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/StanceController.py to StanceController.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/State.py to State.cpython-312.pyc
+byte-compiling /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control/Command.py to Command.cpython-312.pyc
+running install_data
+copying package.xml -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/dingo_control/launch
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/ament_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/ament_index/resource_index
+creating /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/ament_index/resource_index/packages
+copying resource/dingo_control -> /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/dingo_control/dingo_control.egg-info to /home/robogames/Desktop/Dog/dingo_ws/install/dingo_control/lib/python3.12/site-packages/dingo_control-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/robogames/Desktop/Dog/dingo_ws/build/dingo_control/install.log'

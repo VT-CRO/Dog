@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dingo/dingo.egg-info/PKG-INFO
+../../build/dingo/dingo.egg-info/SOURCES.txt
+../../build/dingo/dingo.egg-info/dependency_links.txt
+../../build/dingo/dingo.egg-info/entry_points.txt
+../../build/dingo/dingo.egg-info/requires.txt
+../../build/dingo/dingo.egg-info/top_level.txt
+../../build/dingo/dingo.egg-info/zip-safe
+launch/dingo.launch.py
+resource/dingo
+src/dingo/__init__.py
+src/dingo/dingo_driver.py
+src/dingo/run_robot.py
+src/dingo/status_publisher.py

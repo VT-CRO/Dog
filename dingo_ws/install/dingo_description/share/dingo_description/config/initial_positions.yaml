@@ -1,1 +1,15 @@
-/home/vtcro/Desktop/Dog/dingo_ws/build/dingo_description/config/initial_positions.yaml
+#TODO: set actual initial positions
+
+initial_positions:
+  fr_theta1: 0.5
+  fr_theta2: 0.5
+  fr_theta3: 0.5
+  fl_theta1: 0.5
+  fl_theta2: 0.5
+  fl_theta3: 0.5
+  rr_theta1: 0.5
+  rr_theta2: 0.5
+  rr_theta3: 0.5
+  rl_theta1: 0.5
+  rl_theta2: 0.5
+  rl_theta3: 0.5

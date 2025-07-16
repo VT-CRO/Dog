@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-72ccf3ae2ac6067cb7cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dingo_msgs__py",
+					"jsonFile" : "directory-dingo_msgs__py-482334ad344c5c822cf2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs/dingo_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dingo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dingo_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dingo_msgs_egg-b3f760e34373e61ae4cc.json",
+					"name" : "ament_cmake_python_build_dingo_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_dingo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_dingo_msgs-9bf48a858826b6d40f36.json",
+					"name" : "ament_cmake_python_copy_dingo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs-46be301c3b351dab0d2a.json",
+					"name" : "dingo_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__cpp-e11f74de7344a7942c71.json",
+					"name" : "dingo_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dingo_msgs__py::@1d91583aa984f567f33b",
+					"jsonFile" : "target-dingo_msgs__py-7688ba7b08607f6c85e7.json",
+					"name" : "dingo_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_generator_c-310caece74fa11555eab.json",
+					"name" : "dingo_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_generator_py-d45ecb4da25b323cc63a.json",
+					"name" : "dingo_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_generator_type_description-6b3ef20fb531822a0259.json",
+					"name" : "dingo_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_c-4cc7e0ac3d97a0e4d0d8.json",
+					"name" : "dingo_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_cpp-7c265a1e0118f3c806ee.json",
+					"name" : "dingo_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_fastrtps_c-3905a3c62fe6b1dc9ebf.json",
+					"name" : "dingo_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_fastrtps_cpp-9439b82d0c728b1ff24d.json",
+					"name" : "dingo_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_introspection_c-fdef65202eb7cc5a4b36.json",
+					"name" : "dingo_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs__rosidl_typesupport_introspection_cpp-63db1a343c544c016f6e.json",
+					"name" : "dingo_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs_s__rosidl_typesupport_c-eb11a4ff2465e9388a7f.json",
+					"name" : "dingo_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs_s__rosidl_typesupport_fastrtps_c-3d7ef5d2b5681132b3e0.json",
+					"name" : "dingo_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs_s__rosidl_typesupport_introspection_c-09f236101445493bab16.json",
+					"name" : "dingo_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dingo_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dingo_msgs_uninstall-90a3b6f7e31f80545dc4.json",
+					"name" : "dingo_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5de198edbceb60ff02bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robogames/Desktop/Dog/dingo_ws/build/dingo_msgs",
+		"source" : "/home/robogames/Desktop/Dog/dingo_ws/src/dingo_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
